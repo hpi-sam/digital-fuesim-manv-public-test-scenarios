@@ -1,0 +1,5327 @@
+{
+  "fileVersion": 1,
+  "dataVersion": 25,
+  "type": "complete",
+  "currentState": {
+    "id": "62e32855-dfd3-4b01-8425-b0435c81174e",
+    "currentTime": 209000,
+    "currentStatus": "paused",
+    "randomState": {
+      "type": "randomState",
+      "algo": "sha256-id-ctr",
+      "counter": 41
+    },
+    "viewports": {},
+    "simulatedRegions": {
+      "0aed0dcc-5580-40c5-b675-b1add2bd2dc9": {
+        "id": "0aed0dcc-5580-40c5-b675-b1add2bd2dc9",
+        "type": "simulatedRegion",
+        "position": {
+          "type": "coordinates",
+          "coordinates": { "x": 1461613.149839119, "y": 6871514.559425284 }
+        },
+        "size": { "height": 76.59574468085107, "width": 136.17021276595744 },
+        "name": "Einsatzabschnitt ???",
+        "inEvents": [],
+        "behaviors": [
+          {
+            "type": "automaticallyDistributeVehiclesBehavior",
+            "id": "0cb79bba-3a22-4675-969d-97fb3f606768",
+            "distributionDestinations": {
+              "acecf9b7-f229-4d72-b05f-924b75c02011": true,
+              "bb6075b2-d212-421e-9114-50f36e09fcc4": true,
+              "fb3be34f-973f-4709-a778-0313088e4391": true,
+              "86fc5356-d8d8-45ba-a4f0-ab8ffedc0196": true
+            },
+            "distributionLimits": {
+              "RTW": 1,
+              "KTW": 1.7976931348623157e308,
+              "GW-San": 3
+            },
+            "distributedRounds": { "RTW": 1, "KTW": 1, "GW-San": 2 },
+            "distributedLastRound": { "RTW": 0, "KTW": 0, "GW-San": 0 },
+            "remainingInNeed": {
+              "RTW": {
+                "acecf9b7-f229-4d72-b05f-924b75c02011": true,
+                "bb6075b2-d212-421e-9114-50f36e09fcc4": true,
+                "fb3be34f-973f-4709-a778-0313088e4391": true,
+                "86fc5356-d8d8-45ba-a4f0-ab8ffedc0196": true
+              },
+              "KTW": {
+                "bb6075b2-d212-421e-9114-50f36e09fcc4": true,
+                "fb3be34f-973f-4709-a778-0313088e4391": true,
+                "86fc5356-d8d8-45ba-a4f0-ab8ffedc0196": true
+              },
+              "GW-San": {
+                "acecf9b7-f229-4d72-b05f-924b75c02011": true,
+                "fb3be34f-973f-4709-a778-0313088e4391": true,
+                "86fc5356-d8d8-45ba-a4f0-ab8ffedc0196": true
+              }
+            },
+            "distributionDelay": 60000,
+            "recurringActivityId": "bed0e1f3-a0ab-488a-b279-5ef07c69b9ab"
+          }
+        ],
+        "activities": {
+          "bed0e1f3-a0ab-488a-b279-5ef07c69b9ab": {
+            "type": "recurringEventActivity",
+            "id": "bed0e1f3-a0ab-488a-b279-5ef07c69b9ab",
+            "event": {
+              "type": "tryToDistributeEvent",
+              "behaviorId": "0cb79bba-3a22-4675-969d-97fb3f606768"
+            },
+            "lastOccurrenceTime": 181000,
+            "recurrenceIntervalTime": 60000
+          }
+        }
+      },
+      "b9008058-3d58-4654-b344-5cd768a70309": {
+        "id": "b9008058-3d58-4654-b344-5cd768a70309",
+        "type": "simulatedRegion",
+        "position": {
+          "type": "coordinates",
+          "coordinates": { "x": 1461768.2029035497, "y": 6871525.891900797 }
+        },
+        "size": { "height": 76.59574468085107, "width": 136.17021276595744 },
+        "name": "Einsatzabschnitt ???",
+        "inEvents": [],
+        "behaviors": [],
+        "activities": {}
+      },
+      "fda4ec8f-d4bf-4761-b5fc-06d3fb38e0ae": {
+        "id": "fda4ec8f-d4bf-4761-b5fc-06d3fb38e0ae",
+        "type": "simulatedRegion",
+        "position": {
+          "type": "coordinates",
+          "coordinates": { "x": 1461773.021737362, "y": 6871430.69910649 }
+        },
+        "size": { "height": 76.59574468085107, "width": 136.17021276595744 },
+        "name": "Einsatzabschnitt ???",
+        "inEvents": [],
+        "behaviors": [],
+        "activities": {}
+      }
+    },
+    "vehicles": {
+      "160086be-448e-4f27-bd45-b1460fe9d328": {
+        "id": "160086be-448e-4f27-bd45-b1460fe9d328",
+        "type": "vehicle",
+        "materialIds": { "638be9ac-4d96-486a-8093-8683ea624956": true },
+        "vehicleType": "RTW",
+        "name": "RTW ???",
+        "patientCapacity": 1,
+        "image": {
+          "url": "/assets/rtw-vehicle.png",
+          "height": 100,
+          "aspectRatio": 2.211377245508982
+        },
+        "patientIds": {},
+        "personnelIds": {
+          "beea8237-15e9-4478-b36a-784cddce0539": true,
+          "0babdef8-accb-4c71-be4a-8754526d633b": true
+        },
+        "position": {
+          "type": "coordinates",
+          "coordinates": { "x": 1461735.0924998748, "y": 6871565.63847407 }
+        }
+      },
+      "78eb7708-540c-4294-a468-2b63635a928e": {
+        "id": "78eb7708-540c-4294-a468-2b63635a928e",
+        "type": "vehicle",
+        "materialIds": { "e99052c0-209c-43d9-b16b-81c2058ba15d": true },
+        "vehicleType": "RTW",
+        "name": "RTW ???",
+        "patientCapacity": 1,
+        "image": {
+          "url": "/assets/rtw-vehicle.png",
+          "height": 100,
+          "aspectRatio": 2.211377245508982
+        },
+        "patientIds": {},
+        "personnelIds": {
+          "08d685cb-85d8-4e35-aa1c-f876deabe6d8": true,
+          "512d0bd7-d084-42aa-8bee-71ae2d47cc4c": true
+        },
+        "position": {
+          "type": "coordinates",
+          "coordinates": { "x": 1461775.6273960604, "y": 6871550.622944015 }
+        }
+      },
+      "c0578b12-1f1c-49db-b73f-0ff2a9b2d709": {
+        "id": "c0578b12-1f1c-49db-b73f-0ff2a9b2d709",
+        "type": "vehicle",
+        "materialIds": { "a517bf1a-89c3-483f-944b-202dfdd199a4": true },
+        "vehicleType": "RTW",
+        "name": "RTW ???",
+        "patientCapacity": 1,
+        "image": {
+          "url": "/assets/rtw-vehicle.png",
+          "height": 100,
+          "aspectRatio": 2.211377245508982
+        },
+        "patientIds": {},
+        "personnelIds": {
+          "9fd62f45-5f43-4105-adea-36c09fa63006": true,
+          "35bd0b39-995f-4e52-8ee5-3b9bcd78f854": true
+        },
+        "position": {
+          "type": "simulatedRegion",
+          "simulatedRegionId": "b9008058-3d58-4654-b344-5cd768a70309"
+        }
+      },
+      "6f8f0cb5-275b-479c-900f-0835606bb5ff": {
+        "id": "6f8f0cb5-275b-479c-900f-0835606bb5ff",
+        "type": "vehicle",
+        "materialIds": { "b68ff8b1-6bdf-4df7-a445-8aac92a4a2e6": true },
+        "vehicleType": "KTW",
+        "name": "KTW ???",
+        "patientCapacity": 1,
+        "image": {
+          "url": "/assets/ktw-vehicle.png",
+          "height": 100,
+          "aspectRatio": 2.0470588235294116
+        },
+        "patientIds": {},
+        "personnelIds": {
+          "98384c6c-3696-4d54-abfb-0223b5a81bf4": true,
+          "69f2362d-b0c1-4af7-aa45-9c9eb60af8a6": true
+        },
+        "position": {
+          "type": "coordinates",
+          "coordinates": { "x": 1461735.0924998748, "y": 6871565.63847407 }
+        }
+      },
+      "253a7d31-6b1d-4232-9a46-a8aa92953e29": {
+        "id": "253a7d31-6b1d-4232-9a46-a8aa92953e29",
+        "type": "vehicle",
+        "materialIds": { "bf7ddf71-6cfd-4067-b997-0357a94d2e40": true },
+        "vehicleType": "KTW",
+        "name": "KTW ???",
+        "patientCapacity": 1,
+        "image": {
+          "url": "/assets/ktw-vehicle.png",
+          "height": 100,
+          "aspectRatio": 2.0470588235294116
+        },
+        "patientIds": {},
+        "personnelIds": {
+          "fb4ac5d0-fb1d-49fc-953e-439587182638": true,
+          "b6a5221a-d9a5-4875-99e1-dbb5d2725865": true
+        },
+        "position": {
+          "type": "coordinates",
+          "coordinates": { "x": 1461775.6273960604, "y": 6871550.622944015 }
+        }
+      },
+      "9191d107-4e5a-40d6-b0a5-6d0eda851536": {
+        "id": "9191d107-4e5a-40d6-b0a5-6d0eda851536",
+        "type": "vehicle",
+        "materialIds": { "b768d482-b5e6-4c87-906b-2a869744869f": true },
+        "vehicleType": "KTW",
+        "name": "KTW ???",
+        "patientCapacity": 1,
+        "image": {
+          "url": "/assets/ktw-vehicle.png",
+          "height": 100,
+          "aspectRatio": 2.0470588235294116
+        },
+        "patientIds": {},
+        "personnelIds": {
+          "b30fc572-a5d3-4cd0-9b03-8cdfa92aa2e0": true,
+          "ee99d9cf-34dd-4476-b2d9-6a05a3b48a0a": true
+        },
+        "position": {
+          "type": "simulatedRegion",
+          "simulatedRegionId": "b9008058-3d58-4654-b344-5cd768a70309"
+        }
+      },
+      "c2c3da61-9496-4a32-ab56-058b28604d40": {
+        "id": "c2c3da61-9496-4a32-ab56-058b28604d40",
+        "type": "vehicle",
+        "materialIds": { "be645645-7470-4f30-bc48-ce6a52dc83b3": true },
+        "vehicleType": "KTW",
+        "name": "KTW ???",
+        "patientCapacity": 1,
+        "image": {
+          "url": "/assets/ktw-vehicle.png",
+          "height": 100,
+          "aspectRatio": 2.0470588235294116
+        },
+        "patientIds": {},
+        "personnelIds": {
+          "b9a38924-cee1-4656-b41d-bc23a7978e74": true,
+          "61ba33d8-163c-4e84-b1cf-0667d679296d": true
+        },
+        "position": {
+          "type": "coordinates",
+          "coordinates": { "x": 1461735.0924998748, "y": 6871565.63847407 }
+        }
+      },
+      "7298f46f-4026-45c9-8cbd-7e35c49772a2": {
+        "id": "7298f46f-4026-45c9-8cbd-7e35c49772a2",
+        "type": "vehicle",
+        "materialIds": {
+          "a58df3ec-9719-46f0-9372-84759cdd2981": true,
+          "de385cb1-4409-4b30-ae7d-a9de0a83453f": true,
+          "3152b463-8fb1-4897-8136-de0f38015ebe": true,
+          "67d597c2-26f3-49b4-b24f-d0335285386e": true
+        },
+        "vehicleType": "GW-San",
+        "name": "GW-San ???",
+        "patientCapacity": 0,
+        "image": {
+          "url": "/assets/gwSan-vehicle.png",
+          "height": 120,
+          "aspectRatio": 2.021018593371059
+        },
+        "patientIds": {},
+        "personnelIds": {
+          "d976ec97-991a-496f-832c-07a34d1517cc": true,
+          "ea759400-e030-4788-a1a9-1c9686eab302": true,
+          "c4970476-ae05-4c38-a3a8-01f50956a65f": true,
+          "43a682d1-a9ff-497e-b258-7f8d9e6753a3": true,
+          "376c5681-e0af-4a20-a14f-518442ac7562": true,
+          "4a26f813-594e-4efa-a1e5-0d6c616bb423": true
+        },
+        "position": {
+          "type": "coordinates",
+          "coordinates": { "x": 1461735.0924998748, "y": 6871565.63847407 }
+        }
+      },
+      "0bb486bb-a37e-4f45-9b1f-1642344a8d9d": {
+        "id": "0bb486bb-a37e-4f45-9b1f-1642344a8d9d",
+        "type": "vehicle",
+        "materialIds": {
+          "39be16d1-9cbf-47c6-872a-388c9dc13d4b": true,
+          "488ced38-d4fd-4cc4-aa71-53542dac5036": true,
+          "c3603587-42b8-4079-bb3e-42e7492714cd": true,
+          "1b94d7ca-47ce-416b-8173-edda8e47fdd9": true
+        },
+        "vehicleType": "GW-San",
+        "name": "GW-San ???",
+        "patientCapacity": 0,
+        "image": {
+          "url": "/assets/gwSan-vehicle.png",
+          "height": 120,
+          "aspectRatio": 2.021018593371059
+        },
+        "patientIds": {},
+        "personnelIds": {
+          "5f46caac-dec3-4125-925d-c2c2c13be98c": true,
+          "4ca557ac-fed2-4f0a-9c3e-cc66b82bba43": true,
+          "dafe18fa-7737-4cb4-b606-8bad4f45f37e": true,
+          "09db1264-f7c7-44c8-b994-c637daa2af7e": true,
+          "8ab08c37-0989-4a89-9491-7c0c85f31aac": true,
+          "ba0c5af7-25ff-46bd-98c9-1023639e0fd1": true
+        },
+        "position": {
+          "type": "coordinates",
+          "coordinates": { "x": 1461775.6273960604, "y": 6871550.622944015 }
+        }
+      },
+      "cccee7b4-e38a-4c3e-9e07-82dd5bc52880": {
+        "id": "cccee7b4-e38a-4c3e-9e07-82dd5bc52880",
+        "type": "vehicle",
+        "materialIds": {
+          "2ddbe7d5-08ba-45d5-95d4-ff418071100d": true,
+          "dd54283a-6063-4bd3-bbd9-bdac982f908c": true,
+          "ec1b12be-7869-4e8d-baae-b2205ce2ef6e": true,
+          "0ecf0d53-f0a8-4491-bb77-db4aeffc9d4b": true
+        },
+        "vehicleType": "GW-San",
+        "name": "GW-San ???",
+        "patientCapacity": 0,
+        "image": {
+          "url": "/assets/gwSan-vehicle.png",
+          "height": 120,
+          "aspectRatio": 2.021018593371059
+        },
+        "patientIds": {},
+        "personnelIds": {
+          "2031399a-46cc-4273-9afe-fedec0ccf284": true,
+          "193e7d8c-cd65-4900-95ba-7784f43b3b7d": true,
+          "3c3f0d4f-b9ff-4ac3-8a83-2727d4c3f65d": true,
+          "78bcb544-a50a-4ccd-becc-1e75924fc3ed": true,
+          "4219f3da-538d-4ded-8309-76e356d8b72d": true,
+          "1c37e105-7a77-4dd9-89a5-949ff16de122": true
+        },
+        "position": {
+          "type": "simulatedRegion",
+          "simulatedRegionId": "b9008058-3d58-4654-b344-5cd768a70309"
+        }
+      },
+      "649fb1e5-c766-40e3-914b-3d19bb23081a": {
+        "id": "649fb1e5-c766-40e3-914b-3d19bb23081a",
+        "type": "vehicle",
+        "materialIds": {
+          "6c10cabf-6084-4e5a-93d8-7b409572b251": true,
+          "923ad389-b096-4f21-ab16-8939dd251967": true,
+          "4be463b9-32c5-4052-aead-b4b58ff68ad0": true,
+          "5c5b7854-0463-423b-9ce0-d517a70c4af1": true
+        },
+        "vehicleType": "GW-San",
+        "name": "GW-San ???",
+        "patientCapacity": 0,
+        "image": {
+          "url": "/assets/gwSan-vehicle.png",
+          "height": 120,
+          "aspectRatio": 2.021018593371059
+        },
+        "patientIds": {},
+        "personnelIds": {
+          "807694ea-1637-4788-93ee-96fb2319abcd": true,
+          "3077f23a-080f-43ac-9914-a448e1343340": true,
+          "ec4e78ff-2dec-4317-ad45-94fc26bbc6b7": true,
+          "cf63b1fe-22f3-4505-9eed-c3a96424bfbc": true,
+          "819dcd30-f9b2-4268-bb65-613d8267aaa1": true,
+          "b78afb7e-8435-4391-b574-14f62d62f774": true
+        },
+        "position": {
+          "type": "coordinates",
+          "coordinates": { "x": 1461735.0924998748, "y": 6871565.63847407 }
+        }
+      },
+      "05a9a6cb-e3b1-4b8c-9dd0-694f1692f5ef": {
+        "id": "05a9a6cb-e3b1-4b8c-9dd0-694f1692f5ef",
+        "type": "vehicle",
+        "materialIds": {
+          "8c8fd427-a20a-4546-bdf3-a3f8df6a1951": true,
+          "d722fc7a-0800-4478-904a-399c653dd13f": true,
+          "34bead9b-7636-4bc4-b108-726bd64091cd": true,
+          "c4a7c598-cd65-4d26-9922-92bc1233648c": true
+        },
+        "vehicleType": "GW-San",
+        "name": "GW-San ???",
+        "patientCapacity": 0,
+        "image": {
+          "url": "/assets/gwSan-vehicle.png",
+          "height": 120,
+          "aspectRatio": 2.021018593371059
+        },
+        "patientIds": {},
+        "personnelIds": {
+          "fe12a59b-205c-49d0-af76-e3fab4c55437": true,
+          "b7a035bb-ca11-428a-a32a-3abc2fc8eb9d": true,
+          "902e242c-b5be-405b-9234-81a512ae82e1": true,
+          "78b6cd29-fac1-467c-9ad1-50a6c095c4ca": true,
+          "70013591-456e-46a1-a767-dfb6496da840": true,
+          "c5c010c0-9a22-40de-8431-0913f609538e": true
+        },
+        "position": {
+          "type": "coordinates",
+          "coordinates": { "x": 1461775.6273960604, "y": 6871550.622944015 }
+        }
+      },
+      "c6b0f682-e5be-4a78-ac17-0fce68548ee7": {
+        "id": "c6b0f682-e5be-4a78-ac17-0fce68548ee7",
+        "type": "vehicle",
+        "materialIds": {
+          "972cfd9d-1002-4679-918b-82f9c16de409": true,
+          "d13350e6-01d0-446d-a8d2-5c4bcdbb5b56": true,
+          "7d2f2cbc-830f-4ebb-8b02-d42623c3c67c": true,
+          "a9603307-e07c-461d-b642-dfa3bd588340": true
+        },
+        "vehicleType": "GW-San",
+        "name": "GW-San ???",
+        "patientCapacity": 0,
+        "image": {
+          "url": "/assets/gwSan-vehicle.png",
+          "height": 120,
+          "aspectRatio": 2.021018593371059
+        },
+        "patientIds": {},
+        "personnelIds": {
+          "8841e3ea-7d47-4066-a138-f9732bd14b47": true,
+          "d7c3d113-f8e4-4163-baff-c60330b8d917": true,
+          "4c2eda39-cdc7-4415-8d29-1fbdde59a7ed": true,
+          "836fcb6b-d9fd-40fe-95aa-00e17023a45c": true,
+          "54ecfa62-7a99-4f0e-a97a-b6de804afc1a": true,
+          "79561bb5-9e53-4974-81ff-ffc63f2f2852": true
+        },
+        "position": {
+          "type": "simulatedRegion",
+          "simulatedRegionId": "b9008058-3d58-4654-b344-5cd768a70309"
+        }
+      },
+      "0ed1be21-fb2a-435c-80b9-b50761223853": {
+        "id": "0ed1be21-fb2a-435c-80b9-b50761223853",
+        "type": "vehicle",
+        "materialIds": {
+          "5f1747ab-8ef7-4b37-a58c-a5241a6c5716": true,
+          "506abeb2-9af9-4cec-a08f-79d2275aeddf": true,
+          "bcf4a93c-eb4d-4bc9-ba86-9fe866403bb4": true,
+          "6accb3df-56a5-41e2-8a90-f50854f18dc0": true
+        },
+        "vehicleType": "GW-San",
+        "name": "GW-San ???",
+        "patientCapacity": 0,
+        "image": {
+          "url": "/assets/gwSan-vehicle.png",
+          "height": 120,
+          "aspectRatio": 2.021018593371059
+        },
+        "patientIds": {},
+        "personnelIds": {
+          "fb278def-6e75-4a02-a745-749ac6743d55": true,
+          "524bb646-f2ad-4a19-9c26-2323b5b15c3e": true,
+          "19d47c90-a79b-4994-8ebf-fe2754c2ffcb": true,
+          "5ebebbad-6850-4a5c-bf97-39d155b778cf": true,
+          "bfb91d34-037f-4eb4-829f-e5ddaef86087": true,
+          "54d04fc4-eab1-4668-8225-665009faa304": true
+        },
+        "position": {
+          "type": "simulatedRegion",
+          "simulatedRegionId": "fda4ec8f-d4bf-4761-b5fc-06d3fb38e0ae"
+        }
+      },
+      "e7c98d61-0e73-433e-afc8-1d532110f791": {
+        "id": "e7c98d61-0e73-433e-afc8-1d532110f791",
+        "type": "vehicle",
+        "materialIds": {
+          "ef71f700-7ea3-4678-833c-4ecaf0540739": true,
+          "3c5fb362-fe1a-4e46-8ada-597b8d496147": true,
+          "7a2f05fb-9144-4aef-afa0-928229eb5094": true,
+          "6b65b468-2131-4999-8693-64dfb4dd4242": true
+        },
+        "vehicleType": "GW-San",
+        "name": "GW-San ???",
+        "patientCapacity": 0,
+        "image": {
+          "url": "/assets/gwSan-vehicle.png",
+          "height": 120,
+          "aspectRatio": 2.021018593371059
+        },
+        "patientIds": {},
+        "personnelIds": {
+          "02e3710a-bb99-44d3-90c7-195fa1eb3b4e": true,
+          "76be41d3-3833-45b6-a96b-457c4659636d": true,
+          "7f568aa3-db15-4dd3-a7a9-69a94d1d6999": true,
+          "cfbe87cc-351e-45c0-837a-84434fa954b1": true,
+          "5f1f24e3-5a6a-4224-aa4e-a2b2cea5aa40": true,
+          "81aab1c9-b981-4514-9bfa-b39bce4717b8": true
+        },
+        "position": {
+          "type": "coordinates",
+          "coordinates": { "x": 1461775.6273960604, "y": 6871550.622944015 }
+        }
+      }
+    },
+    "personnel": {
+      "beea8237-15e9-4478-b36a-784cddce0539": {
+        "id": "beea8237-15e9-4478-b36a-784cddce0539",
+        "type": "personnel",
+        "vehicleId": "160086be-448e-4f27-bd45-b1460fe9d328",
+        "personnelType": "notSan",
+        "vehicleName": "RTW ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 1,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/notSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "160086be-448e-4f27-bd45-b1460fe9d328"
+        }
+      },
+      "0babdef8-accb-4c71-be4a-8754526d633b": {
+        "id": "0babdef8-accb-4c71-be4a-8754526d633b",
+        "type": "personnel",
+        "vehicleId": "160086be-448e-4f27-bd45-b1460fe9d328",
+        "personnelType": "rettSan",
+        "vehicleName": "RTW ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "160086be-448e-4f27-bd45-b1460fe9d328"
+        }
+      },
+      "08d685cb-85d8-4e35-aa1c-f876deabe6d8": {
+        "id": "08d685cb-85d8-4e35-aa1c-f876deabe6d8",
+        "type": "personnel",
+        "vehicleId": "78eb7708-540c-4294-a468-2b63635a928e",
+        "personnelType": "notSan",
+        "vehicleName": "RTW ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 1,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/notSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "78eb7708-540c-4294-a468-2b63635a928e"
+        }
+      },
+      "512d0bd7-d084-42aa-8bee-71ae2d47cc4c": {
+        "id": "512d0bd7-d084-42aa-8bee-71ae2d47cc4c",
+        "type": "personnel",
+        "vehicleId": "78eb7708-540c-4294-a468-2b63635a928e",
+        "personnelType": "rettSan",
+        "vehicleName": "RTW ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "78eb7708-540c-4294-a468-2b63635a928e"
+        }
+      },
+      "9fd62f45-5f43-4105-adea-36c09fa63006": {
+        "id": "9fd62f45-5f43-4105-adea-36c09fa63006",
+        "type": "personnel",
+        "vehicleId": "c0578b12-1f1c-49db-b73f-0ff2a9b2d709",
+        "personnelType": "notSan",
+        "vehicleName": "RTW ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 1,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/notSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "c0578b12-1f1c-49db-b73f-0ff2a9b2d709"
+        }
+      },
+      "35bd0b39-995f-4e52-8ee5-3b9bcd78f854": {
+        "id": "35bd0b39-995f-4e52-8ee5-3b9bcd78f854",
+        "type": "personnel",
+        "vehicleId": "c0578b12-1f1c-49db-b73f-0ff2a9b2d709",
+        "personnelType": "rettSan",
+        "vehicleName": "RTW ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "c0578b12-1f1c-49db-b73f-0ff2a9b2d709"
+        }
+      },
+      "98384c6c-3696-4d54-abfb-0223b5a81bf4": {
+        "id": "98384c6c-3696-4d54-abfb-0223b5a81bf4",
+        "type": "personnel",
+        "vehicleId": "6f8f0cb5-275b-479c-900f-0835606bb5ff",
+        "personnelType": "san",
+        "vehicleName": "KTW ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 5,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/san-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "6f8f0cb5-275b-479c-900f-0835606bb5ff"
+        }
+      },
+      "69f2362d-b0c1-4af7-aa45-9c9eb60af8a6": {
+        "id": "69f2362d-b0c1-4af7-aa45-9c9eb60af8a6",
+        "type": "personnel",
+        "vehicleId": "6f8f0cb5-275b-479c-900f-0835606bb5ff",
+        "personnelType": "rettSan",
+        "vehicleName": "KTW ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "6f8f0cb5-275b-479c-900f-0835606bb5ff"
+        }
+      },
+      "fb4ac5d0-fb1d-49fc-953e-439587182638": {
+        "id": "fb4ac5d0-fb1d-49fc-953e-439587182638",
+        "type": "personnel",
+        "vehicleId": "253a7d31-6b1d-4232-9a46-a8aa92953e29",
+        "personnelType": "san",
+        "vehicleName": "KTW ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 5,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/san-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "253a7d31-6b1d-4232-9a46-a8aa92953e29"
+        }
+      },
+      "b6a5221a-d9a5-4875-99e1-dbb5d2725865": {
+        "id": "b6a5221a-d9a5-4875-99e1-dbb5d2725865",
+        "type": "personnel",
+        "vehicleId": "253a7d31-6b1d-4232-9a46-a8aa92953e29",
+        "personnelType": "rettSan",
+        "vehicleName": "KTW ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "253a7d31-6b1d-4232-9a46-a8aa92953e29"
+        }
+      },
+      "b30fc572-a5d3-4cd0-9b03-8cdfa92aa2e0": {
+        "id": "b30fc572-a5d3-4cd0-9b03-8cdfa92aa2e0",
+        "type": "personnel",
+        "vehicleId": "9191d107-4e5a-40d6-b0a5-6d0eda851536",
+        "personnelType": "san",
+        "vehicleName": "KTW ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 5,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/san-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "9191d107-4e5a-40d6-b0a5-6d0eda851536"
+        }
+      },
+      "ee99d9cf-34dd-4476-b2d9-6a05a3b48a0a": {
+        "id": "ee99d9cf-34dd-4476-b2d9-6a05a3b48a0a",
+        "type": "personnel",
+        "vehicleId": "9191d107-4e5a-40d6-b0a5-6d0eda851536",
+        "personnelType": "rettSan",
+        "vehicleName": "KTW ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "9191d107-4e5a-40d6-b0a5-6d0eda851536"
+        }
+      },
+      "b9a38924-cee1-4656-b41d-bc23a7978e74": {
+        "id": "b9a38924-cee1-4656-b41d-bc23a7978e74",
+        "type": "personnel",
+        "vehicleId": "c2c3da61-9496-4a32-ab56-058b28604d40",
+        "personnelType": "san",
+        "vehicleName": "KTW ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 5,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/san-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "c2c3da61-9496-4a32-ab56-058b28604d40"
+        }
+      },
+      "61ba33d8-163c-4e84-b1cf-0667d679296d": {
+        "id": "61ba33d8-163c-4e84-b1cf-0667d679296d",
+        "type": "personnel",
+        "vehicleId": "c2c3da61-9496-4a32-ab56-058b28604d40",
+        "personnelType": "rettSan",
+        "vehicleName": "KTW ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "c2c3da61-9496-4a32-ab56-058b28604d40"
+        }
+      },
+      "d976ec97-991a-496f-832c-07a34d1517cc": {
+        "id": "d976ec97-991a-496f-832c-07a34d1517cc",
+        "type": "personnel",
+        "vehicleId": "7298f46f-4026-45c9-8cbd-7e35c49772a2",
+        "personnelType": "gf",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 0,
+        "treatmentRange": 0,
+        "image": {
+          "url": "/assets/gf-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "7298f46f-4026-45c9-8cbd-7e35c49772a2"
+        }
+      },
+      "ea759400-e030-4788-a1a9-1c9686eab302": {
+        "id": "ea759400-e030-4788-a1a9-1c9686eab302",
+        "type": "personnel",
+        "vehicleId": "7298f46f-4026-45c9-8cbd-7e35c49772a2",
+        "personnelType": "rettSan",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "7298f46f-4026-45c9-8cbd-7e35c49772a2"
+        }
+      },
+      "c4970476-ae05-4c38-a3a8-01f50956a65f": {
+        "id": "c4970476-ae05-4c38-a3a8-01f50956a65f",
+        "type": "personnel",
+        "vehicleId": "7298f46f-4026-45c9-8cbd-7e35c49772a2",
+        "personnelType": "rettSan",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "7298f46f-4026-45c9-8cbd-7e35c49772a2"
+        }
+      },
+      "43a682d1-a9ff-497e-b258-7f8d9e6753a3": {
+        "id": "43a682d1-a9ff-497e-b258-7f8d9e6753a3",
+        "type": "personnel",
+        "vehicleId": "7298f46f-4026-45c9-8cbd-7e35c49772a2",
+        "personnelType": "san",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 5,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/san-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "7298f46f-4026-45c9-8cbd-7e35c49772a2"
+        }
+      },
+      "376c5681-e0af-4a20-a14f-518442ac7562": {
+        "id": "376c5681-e0af-4a20-a14f-518442ac7562",
+        "type": "personnel",
+        "vehicleId": "7298f46f-4026-45c9-8cbd-7e35c49772a2",
+        "personnelType": "san",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 5,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/san-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "7298f46f-4026-45c9-8cbd-7e35c49772a2"
+        }
+      },
+      "4a26f813-594e-4efa-a1e5-0d6c616bb423": {
+        "id": "4a26f813-594e-4efa-a1e5-0d6c616bb423",
+        "type": "personnel",
+        "vehicleId": "7298f46f-4026-45c9-8cbd-7e35c49772a2",
+        "personnelType": "notarzt",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 2,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 15,
+        "image": {
+          "url": "/assets/notarzt-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "7298f46f-4026-45c9-8cbd-7e35c49772a2"
+        }
+      },
+      "5f46caac-dec3-4125-925d-c2c2c13be98c": {
+        "id": "5f46caac-dec3-4125-925d-c2c2c13be98c",
+        "type": "personnel",
+        "vehicleId": "0bb486bb-a37e-4f45-9b1f-1642344a8d9d",
+        "personnelType": "gf",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 0,
+        "treatmentRange": 0,
+        "image": {
+          "url": "/assets/gf-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "0bb486bb-a37e-4f45-9b1f-1642344a8d9d"
+        }
+      },
+      "4ca557ac-fed2-4f0a-9c3e-cc66b82bba43": {
+        "id": "4ca557ac-fed2-4f0a-9c3e-cc66b82bba43",
+        "type": "personnel",
+        "vehicleId": "0bb486bb-a37e-4f45-9b1f-1642344a8d9d",
+        "personnelType": "rettSan",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "0bb486bb-a37e-4f45-9b1f-1642344a8d9d"
+        }
+      },
+      "dafe18fa-7737-4cb4-b606-8bad4f45f37e": {
+        "id": "dafe18fa-7737-4cb4-b606-8bad4f45f37e",
+        "type": "personnel",
+        "vehicleId": "0bb486bb-a37e-4f45-9b1f-1642344a8d9d",
+        "personnelType": "rettSan",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "0bb486bb-a37e-4f45-9b1f-1642344a8d9d"
+        }
+      },
+      "09db1264-f7c7-44c8-b994-c637daa2af7e": {
+        "id": "09db1264-f7c7-44c8-b994-c637daa2af7e",
+        "type": "personnel",
+        "vehicleId": "0bb486bb-a37e-4f45-9b1f-1642344a8d9d",
+        "personnelType": "san",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 5,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/san-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "0bb486bb-a37e-4f45-9b1f-1642344a8d9d"
+        }
+      },
+      "8ab08c37-0989-4a89-9491-7c0c85f31aac": {
+        "id": "8ab08c37-0989-4a89-9491-7c0c85f31aac",
+        "type": "personnel",
+        "vehicleId": "0bb486bb-a37e-4f45-9b1f-1642344a8d9d",
+        "personnelType": "san",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 5,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/san-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "0bb486bb-a37e-4f45-9b1f-1642344a8d9d"
+        }
+      },
+      "ba0c5af7-25ff-46bd-98c9-1023639e0fd1": {
+        "id": "ba0c5af7-25ff-46bd-98c9-1023639e0fd1",
+        "type": "personnel",
+        "vehicleId": "0bb486bb-a37e-4f45-9b1f-1642344a8d9d",
+        "personnelType": "notarzt",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 2,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 15,
+        "image": {
+          "url": "/assets/notarzt-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "0bb486bb-a37e-4f45-9b1f-1642344a8d9d"
+        }
+      },
+      "2031399a-46cc-4273-9afe-fedec0ccf284": {
+        "id": "2031399a-46cc-4273-9afe-fedec0ccf284",
+        "type": "personnel",
+        "vehicleId": "cccee7b4-e38a-4c3e-9e07-82dd5bc52880",
+        "personnelType": "gf",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 0,
+        "treatmentRange": 0,
+        "image": {
+          "url": "/assets/gf-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "cccee7b4-e38a-4c3e-9e07-82dd5bc52880"
+        }
+      },
+      "193e7d8c-cd65-4900-95ba-7784f43b3b7d": {
+        "id": "193e7d8c-cd65-4900-95ba-7784f43b3b7d",
+        "type": "personnel",
+        "vehicleId": "cccee7b4-e38a-4c3e-9e07-82dd5bc52880",
+        "personnelType": "rettSan",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "cccee7b4-e38a-4c3e-9e07-82dd5bc52880"
+        }
+      },
+      "3c3f0d4f-b9ff-4ac3-8a83-2727d4c3f65d": {
+        "id": "3c3f0d4f-b9ff-4ac3-8a83-2727d4c3f65d",
+        "type": "personnel",
+        "vehicleId": "cccee7b4-e38a-4c3e-9e07-82dd5bc52880",
+        "personnelType": "rettSan",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "cccee7b4-e38a-4c3e-9e07-82dd5bc52880"
+        }
+      },
+      "78bcb544-a50a-4ccd-becc-1e75924fc3ed": {
+        "id": "78bcb544-a50a-4ccd-becc-1e75924fc3ed",
+        "type": "personnel",
+        "vehicleId": "cccee7b4-e38a-4c3e-9e07-82dd5bc52880",
+        "personnelType": "san",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 5,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/san-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "cccee7b4-e38a-4c3e-9e07-82dd5bc52880"
+        }
+      },
+      "4219f3da-538d-4ded-8309-76e356d8b72d": {
+        "id": "4219f3da-538d-4ded-8309-76e356d8b72d",
+        "type": "personnel",
+        "vehicleId": "cccee7b4-e38a-4c3e-9e07-82dd5bc52880",
+        "personnelType": "san",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 5,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/san-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "cccee7b4-e38a-4c3e-9e07-82dd5bc52880"
+        }
+      },
+      "1c37e105-7a77-4dd9-89a5-949ff16de122": {
+        "id": "1c37e105-7a77-4dd9-89a5-949ff16de122",
+        "type": "personnel",
+        "vehicleId": "cccee7b4-e38a-4c3e-9e07-82dd5bc52880",
+        "personnelType": "notarzt",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 2,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 15,
+        "image": {
+          "url": "/assets/notarzt-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "cccee7b4-e38a-4c3e-9e07-82dd5bc52880"
+        }
+      },
+      "807694ea-1637-4788-93ee-96fb2319abcd": {
+        "id": "807694ea-1637-4788-93ee-96fb2319abcd",
+        "type": "personnel",
+        "vehicleId": "649fb1e5-c766-40e3-914b-3d19bb23081a",
+        "personnelType": "gf",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 0,
+        "treatmentRange": 0,
+        "image": {
+          "url": "/assets/gf-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "649fb1e5-c766-40e3-914b-3d19bb23081a"
+        }
+      },
+      "3077f23a-080f-43ac-9914-a448e1343340": {
+        "id": "3077f23a-080f-43ac-9914-a448e1343340",
+        "type": "personnel",
+        "vehicleId": "649fb1e5-c766-40e3-914b-3d19bb23081a",
+        "personnelType": "rettSan",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "649fb1e5-c766-40e3-914b-3d19bb23081a"
+        }
+      },
+      "ec4e78ff-2dec-4317-ad45-94fc26bbc6b7": {
+        "id": "ec4e78ff-2dec-4317-ad45-94fc26bbc6b7",
+        "type": "personnel",
+        "vehicleId": "649fb1e5-c766-40e3-914b-3d19bb23081a",
+        "personnelType": "rettSan",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "649fb1e5-c766-40e3-914b-3d19bb23081a"
+        }
+      },
+      "cf63b1fe-22f3-4505-9eed-c3a96424bfbc": {
+        "id": "cf63b1fe-22f3-4505-9eed-c3a96424bfbc",
+        "type": "personnel",
+        "vehicleId": "649fb1e5-c766-40e3-914b-3d19bb23081a",
+        "personnelType": "san",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 5,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/san-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "649fb1e5-c766-40e3-914b-3d19bb23081a"
+        }
+      },
+      "819dcd30-f9b2-4268-bb65-613d8267aaa1": {
+        "id": "819dcd30-f9b2-4268-bb65-613d8267aaa1",
+        "type": "personnel",
+        "vehicleId": "649fb1e5-c766-40e3-914b-3d19bb23081a",
+        "personnelType": "san",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 5,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/san-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "649fb1e5-c766-40e3-914b-3d19bb23081a"
+        }
+      },
+      "b78afb7e-8435-4391-b574-14f62d62f774": {
+        "id": "b78afb7e-8435-4391-b574-14f62d62f774",
+        "type": "personnel",
+        "vehicleId": "649fb1e5-c766-40e3-914b-3d19bb23081a",
+        "personnelType": "notarzt",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 2,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 15,
+        "image": {
+          "url": "/assets/notarzt-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "649fb1e5-c766-40e3-914b-3d19bb23081a"
+        }
+      },
+      "fe12a59b-205c-49d0-af76-e3fab4c55437": {
+        "id": "fe12a59b-205c-49d0-af76-e3fab4c55437",
+        "type": "personnel",
+        "vehicleId": "05a9a6cb-e3b1-4b8c-9dd0-694f1692f5ef",
+        "personnelType": "gf",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 0,
+        "treatmentRange": 0,
+        "image": {
+          "url": "/assets/gf-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "05a9a6cb-e3b1-4b8c-9dd0-694f1692f5ef"
+        }
+      },
+      "b7a035bb-ca11-428a-a32a-3abc2fc8eb9d": {
+        "id": "b7a035bb-ca11-428a-a32a-3abc2fc8eb9d",
+        "type": "personnel",
+        "vehicleId": "05a9a6cb-e3b1-4b8c-9dd0-694f1692f5ef",
+        "personnelType": "rettSan",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "05a9a6cb-e3b1-4b8c-9dd0-694f1692f5ef"
+        }
+      },
+      "902e242c-b5be-405b-9234-81a512ae82e1": {
+        "id": "902e242c-b5be-405b-9234-81a512ae82e1",
+        "type": "personnel",
+        "vehicleId": "05a9a6cb-e3b1-4b8c-9dd0-694f1692f5ef",
+        "personnelType": "rettSan",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "05a9a6cb-e3b1-4b8c-9dd0-694f1692f5ef"
+        }
+      },
+      "78b6cd29-fac1-467c-9ad1-50a6c095c4ca": {
+        "id": "78b6cd29-fac1-467c-9ad1-50a6c095c4ca",
+        "type": "personnel",
+        "vehicleId": "05a9a6cb-e3b1-4b8c-9dd0-694f1692f5ef",
+        "personnelType": "san",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 5,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/san-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "05a9a6cb-e3b1-4b8c-9dd0-694f1692f5ef"
+        }
+      },
+      "70013591-456e-46a1-a767-dfb6496da840": {
+        "id": "70013591-456e-46a1-a767-dfb6496da840",
+        "type": "personnel",
+        "vehicleId": "05a9a6cb-e3b1-4b8c-9dd0-694f1692f5ef",
+        "personnelType": "san",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 5,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/san-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "05a9a6cb-e3b1-4b8c-9dd0-694f1692f5ef"
+        }
+      },
+      "c5c010c0-9a22-40de-8431-0913f609538e": {
+        "id": "c5c010c0-9a22-40de-8431-0913f609538e",
+        "type": "personnel",
+        "vehicleId": "05a9a6cb-e3b1-4b8c-9dd0-694f1692f5ef",
+        "personnelType": "notarzt",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 2,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 15,
+        "image": {
+          "url": "/assets/notarzt-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "05a9a6cb-e3b1-4b8c-9dd0-694f1692f5ef"
+        }
+      },
+      "8841e3ea-7d47-4066-a138-f9732bd14b47": {
+        "id": "8841e3ea-7d47-4066-a138-f9732bd14b47",
+        "type": "personnel",
+        "vehicleId": "c6b0f682-e5be-4a78-ac17-0fce68548ee7",
+        "personnelType": "gf",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 0,
+        "treatmentRange": 0,
+        "image": {
+          "url": "/assets/gf-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "c6b0f682-e5be-4a78-ac17-0fce68548ee7"
+        }
+      },
+      "d7c3d113-f8e4-4163-baff-c60330b8d917": {
+        "id": "d7c3d113-f8e4-4163-baff-c60330b8d917",
+        "type": "personnel",
+        "vehicleId": "c6b0f682-e5be-4a78-ac17-0fce68548ee7",
+        "personnelType": "rettSan",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "c6b0f682-e5be-4a78-ac17-0fce68548ee7"
+        }
+      },
+      "4c2eda39-cdc7-4415-8d29-1fbdde59a7ed": {
+        "id": "4c2eda39-cdc7-4415-8d29-1fbdde59a7ed",
+        "type": "personnel",
+        "vehicleId": "c6b0f682-e5be-4a78-ac17-0fce68548ee7",
+        "personnelType": "rettSan",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "c6b0f682-e5be-4a78-ac17-0fce68548ee7"
+        }
+      },
+      "836fcb6b-d9fd-40fe-95aa-00e17023a45c": {
+        "id": "836fcb6b-d9fd-40fe-95aa-00e17023a45c",
+        "type": "personnel",
+        "vehicleId": "c6b0f682-e5be-4a78-ac17-0fce68548ee7",
+        "personnelType": "san",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 5,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/san-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "c6b0f682-e5be-4a78-ac17-0fce68548ee7"
+        }
+      },
+      "54ecfa62-7a99-4f0e-a97a-b6de804afc1a": {
+        "id": "54ecfa62-7a99-4f0e-a97a-b6de804afc1a",
+        "type": "personnel",
+        "vehicleId": "c6b0f682-e5be-4a78-ac17-0fce68548ee7",
+        "personnelType": "san",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 5,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/san-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "c6b0f682-e5be-4a78-ac17-0fce68548ee7"
+        }
+      },
+      "79561bb5-9e53-4974-81ff-ffc63f2f2852": {
+        "id": "79561bb5-9e53-4974-81ff-ffc63f2f2852",
+        "type": "personnel",
+        "vehicleId": "c6b0f682-e5be-4a78-ac17-0fce68548ee7",
+        "personnelType": "notarzt",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 2,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 15,
+        "image": {
+          "url": "/assets/notarzt-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "c6b0f682-e5be-4a78-ac17-0fce68548ee7"
+        }
+      },
+      "fb278def-6e75-4a02-a745-749ac6743d55": {
+        "id": "fb278def-6e75-4a02-a745-749ac6743d55",
+        "type": "personnel",
+        "vehicleId": "0ed1be21-fb2a-435c-80b9-b50761223853",
+        "personnelType": "gf",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 0,
+        "treatmentRange": 0,
+        "image": {
+          "url": "/assets/gf-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "0ed1be21-fb2a-435c-80b9-b50761223853"
+        }
+      },
+      "524bb646-f2ad-4a19-9c26-2323b5b15c3e": {
+        "id": "524bb646-f2ad-4a19-9c26-2323b5b15c3e",
+        "type": "personnel",
+        "vehicleId": "0ed1be21-fb2a-435c-80b9-b50761223853",
+        "personnelType": "rettSan",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "0ed1be21-fb2a-435c-80b9-b50761223853"
+        }
+      },
+      "19d47c90-a79b-4994-8ebf-fe2754c2ffcb": {
+        "id": "19d47c90-a79b-4994-8ebf-fe2754c2ffcb",
+        "type": "personnel",
+        "vehicleId": "0ed1be21-fb2a-435c-80b9-b50761223853",
+        "personnelType": "rettSan",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "0ed1be21-fb2a-435c-80b9-b50761223853"
+        }
+      },
+      "5ebebbad-6850-4a5c-bf97-39d155b778cf": {
+        "id": "5ebebbad-6850-4a5c-bf97-39d155b778cf",
+        "type": "personnel",
+        "vehicleId": "0ed1be21-fb2a-435c-80b9-b50761223853",
+        "personnelType": "san",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 5,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/san-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "0ed1be21-fb2a-435c-80b9-b50761223853"
+        }
+      },
+      "bfb91d34-037f-4eb4-829f-e5ddaef86087": {
+        "id": "bfb91d34-037f-4eb4-829f-e5ddaef86087",
+        "type": "personnel",
+        "vehicleId": "0ed1be21-fb2a-435c-80b9-b50761223853",
+        "personnelType": "san",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 5,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/san-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "0ed1be21-fb2a-435c-80b9-b50761223853"
+        }
+      },
+      "54d04fc4-eab1-4668-8225-665009faa304": {
+        "id": "54d04fc4-eab1-4668-8225-665009faa304",
+        "type": "personnel",
+        "vehicleId": "0ed1be21-fb2a-435c-80b9-b50761223853",
+        "personnelType": "notarzt",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 2,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 15,
+        "image": {
+          "url": "/assets/notarzt-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "0ed1be21-fb2a-435c-80b9-b50761223853"
+        }
+      },
+      "02e3710a-bb99-44d3-90c7-195fa1eb3b4e": {
+        "id": "02e3710a-bb99-44d3-90c7-195fa1eb3b4e",
+        "type": "personnel",
+        "vehicleId": "e7c98d61-0e73-433e-afc8-1d532110f791",
+        "personnelType": "gf",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 0,
+        "treatmentRange": 0,
+        "image": {
+          "url": "/assets/gf-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "e7c98d61-0e73-433e-afc8-1d532110f791"
+        }
+      },
+      "76be41d3-3833-45b6-a96b-457c4659636d": {
+        "id": "76be41d3-3833-45b6-a96b-457c4659636d",
+        "type": "personnel",
+        "vehicleId": "e7c98d61-0e73-433e-afc8-1d532110f791",
+        "personnelType": "rettSan",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "e7c98d61-0e73-433e-afc8-1d532110f791"
+        }
+      },
+      "7f568aa3-db15-4dd3-a7a9-69a94d1d6999": {
+        "id": "7f568aa3-db15-4dd3-a7a9-69a94d1d6999",
+        "type": "personnel",
+        "vehicleId": "e7c98d61-0e73-433e-afc8-1d532110f791",
+        "personnelType": "rettSan",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "e7c98d61-0e73-433e-afc8-1d532110f791"
+        }
+      },
+      "cfbe87cc-351e-45c0-837a-84434fa954b1": {
+        "id": "cfbe87cc-351e-45c0-837a-84434fa954b1",
+        "type": "personnel",
+        "vehicleId": "e7c98d61-0e73-433e-afc8-1d532110f791",
+        "personnelType": "san",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 5,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/san-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "e7c98d61-0e73-433e-afc8-1d532110f791"
+        }
+      },
+      "5f1f24e3-5a6a-4224-aa4e-a2b2cea5aa40": {
+        "id": "5f1f24e3-5a6a-4224-aa4e-a2b2cea5aa40",
+        "type": "personnel",
+        "vehicleId": "e7c98d61-0e73-433e-afc8-1d532110f791",
+        "personnelType": "san",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 5,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/san-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "e7c98d61-0e73-433e-afc8-1d532110f791"
+        }
+      },
+      "81aab1c9-b981-4514-9bfa-b39bce4717b8": {
+        "id": "81aab1c9-b981-4514-9bfa-b39bce4717b8",
+        "type": "personnel",
+        "vehicleId": "e7c98d61-0e73-433e-afc8-1d532110f791",
+        "personnelType": "notarzt",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 2,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 15,
+        "image": {
+          "url": "/assets/notarzt-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "e7c98d61-0e73-433e-afc8-1d532110f791"
+        }
+      }
+    },
+    "patients": {},
+    "materials": {
+      "638be9ac-4d96-486a-8093-8683ea624956": {
+        "id": "638be9ac-4d96-486a-8093-8683ea624956",
+        "type": "material",
+        "vehicleId": "160086be-448e-4f27-bd45-b1460fe9d328",
+        "vehicleName": "RTW ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 0,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "160086be-448e-4f27-bd45-b1460fe9d328"
+        },
+        "image": {
+          "url": "/assets/material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "e99052c0-209c-43d9-b16b-81c2058ba15d": {
+        "id": "e99052c0-209c-43d9-b16b-81c2058ba15d",
+        "type": "material",
+        "vehicleId": "78eb7708-540c-4294-a468-2b63635a928e",
+        "vehicleName": "RTW ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 0,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "78eb7708-540c-4294-a468-2b63635a928e"
+        },
+        "image": {
+          "url": "/assets/material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "a517bf1a-89c3-483f-944b-202dfdd199a4": {
+        "id": "a517bf1a-89c3-483f-944b-202dfdd199a4",
+        "type": "material",
+        "vehicleId": "c0578b12-1f1c-49db-b73f-0ff2a9b2d709",
+        "vehicleName": "RTW ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 0,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "c0578b12-1f1c-49db-b73f-0ff2a9b2d709"
+        },
+        "image": {
+          "url": "/assets/material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "b68ff8b1-6bdf-4df7-a445-8aac92a4a2e6": {
+        "id": "b68ff8b1-6bdf-4df7-a445-8aac92a4a2e6",
+        "type": "material",
+        "vehicleId": "6f8f0cb5-275b-479c-900f-0835606bb5ff",
+        "vehicleName": "KTW ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 0,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "6f8f0cb5-275b-479c-900f-0835606bb5ff"
+        },
+        "image": {
+          "url": "/assets/material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "bf7ddf71-6cfd-4067-b997-0357a94d2e40": {
+        "id": "bf7ddf71-6cfd-4067-b997-0357a94d2e40",
+        "type": "material",
+        "vehicleId": "253a7d31-6b1d-4232-9a46-a8aa92953e29",
+        "vehicleName": "KTW ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 0,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "253a7d31-6b1d-4232-9a46-a8aa92953e29"
+        },
+        "image": {
+          "url": "/assets/material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "b768d482-b5e6-4c87-906b-2a869744869f": {
+        "id": "b768d482-b5e6-4c87-906b-2a869744869f",
+        "type": "material",
+        "vehicleId": "9191d107-4e5a-40d6-b0a5-6d0eda851536",
+        "vehicleName": "KTW ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 0,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "9191d107-4e5a-40d6-b0a5-6d0eda851536"
+        },
+        "image": {
+          "url": "/assets/material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "be645645-7470-4f30-bc48-ce6a52dc83b3": {
+        "id": "be645645-7470-4f30-bc48-ce6a52dc83b3",
+        "type": "material",
+        "vehicleId": "c2c3da61-9496-4a32-ab56-058b28604d40",
+        "vehicleName": "KTW ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 0,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "c2c3da61-9496-4a32-ab56-058b28604d40"
+        },
+        "image": {
+          "url": "/assets/material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "a58df3ec-9719-46f0-9372-84759cdd2981": {
+        "id": "a58df3ec-9719-46f0-9372-84759cdd2981",
+        "type": "material",
+        "vehicleId": "7298f46f-4026-45c9-8cbd-7e35c49772a2",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "7298f46f-4026-45c9-8cbd-7e35c49772a2"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "de385cb1-4409-4b30-ae7d-a9de0a83453f": {
+        "id": "de385cb1-4409-4b30-ae7d-a9de0a83453f",
+        "type": "material",
+        "vehicleId": "7298f46f-4026-45c9-8cbd-7e35c49772a2",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "7298f46f-4026-45c9-8cbd-7e35c49772a2"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "3152b463-8fb1-4897-8136-de0f38015ebe": {
+        "id": "3152b463-8fb1-4897-8136-de0f38015ebe",
+        "type": "material",
+        "vehicleId": "7298f46f-4026-45c9-8cbd-7e35c49772a2",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "7298f46f-4026-45c9-8cbd-7e35c49772a2"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "67d597c2-26f3-49b4-b24f-d0335285386e": {
+        "id": "67d597c2-26f3-49b4-b24f-d0335285386e",
+        "type": "material",
+        "vehicleId": "7298f46f-4026-45c9-8cbd-7e35c49772a2",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "7298f46f-4026-45c9-8cbd-7e35c49772a2"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "39be16d1-9cbf-47c6-872a-388c9dc13d4b": {
+        "id": "39be16d1-9cbf-47c6-872a-388c9dc13d4b",
+        "type": "material",
+        "vehicleId": "0bb486bb-a37e-4f45-9b1f-1642344a8d9d",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "0bb486bb-a37e-4f45-9b1f-1642344a8d9d"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "488ced38-d4fd-4cc4-aa71-53542dac5036": {
+        "id": "488ced38-d4fd-4cc4-aa71-53542dac5036",
+        "type": "material",
+        "vehicleId": "0bb486bb-a37e-4f45-9b1f-1642344a8d9d",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "0bb486bb-a37e-4f45-9b1f-1642344a8d9d"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "c3603587-42b8-4079-bb3e-42e7492714cd": {
+        "id": "c3603587-42b8-4079-bb3e-42e7492714cd",
+        "type": "material",
+        "vehicleId": "0bb486bb-a37e-4f45-9b1f-1642344a8d9d",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "0bb486bb-a37e-4f45-9b1f-1642344a8d9d"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "1b94d7ca-47ce-416b-8173-edda8e47fdd9": {
+        "id": "1b94d7ca-47ce-416b-8173-edda8e47fdd9",
+        "type": "material",
+        "vehicleId": "0bb486bb-a37e-4f45-9b1f-1642344a8d9d",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "0bb486bb-a37e-4f45-9b1f-1642344a8d9d"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "2ddbe7d5-08ba-45d5-95d4-ff418071100d": {
+        "id": "2ddbe7d5-08ba-45d5-95d4-ff418071100d",
+        "type": "material",
+        "vehicleId": "cccee7b4-e38a-4c3e-9e07-82dd5bc52880",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "cccee7b4-e38a-4c3e-9e07-82dd5bc52880"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "dd54283a-6063-4bd3-bbd9-bdac982f908c": {
+        "id": "dd54283a-6063-4bd3-bbd9-bdac982f908c",
+        "type": "material",
+        "vehicleId": "cccee7b4-e38a-4c3e-9e07-82dd5bc52880",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "cccee7b4-e38a-4c3e-9e07-82dd5bc52880"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "ec1b12be-7869-4e8d-baae-b2205ce2ef6e": {
+        "id": "ec1b12be-7869-4e8d-baae-b2205ce2ef6e",
+        "type": "material",
+        "vehicleId": "cccee7b4-e38a-4c3e-9e07-82dd5bc52880",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "cccee7b4-e38a-4c3e-9e07-82dd5bc52880"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "0ecf0d53-f0a8-4491-bb77-db4aeffc9d4b": {
+        "id": "0ecf0d53-f0a8-4491-bb77-db4aeffc9d4b",
+        "type": "material",
+        "vehicleId": "cccee7b4-e38a-4c3e-9e07-82dd5bc52880",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "cccee7b4-e38a-4c3e-9e07-82dd5bc52880"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "6c10cabf-6084-4e5a-93d8-7b409572b251": {
+        "id": "6c10cabf-6084-4e5a-93d8-7b409572b251",
+        "type": "material",
+        "vehicleId": "649fb1e5-c766-40e3-914b-3d19bb23081a",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "649fb1e5-c766-40e3-914b-3d19bb23081a"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "923ad389-b096-4f21-ab16-8939dd251967": {
+        "id": "923ad389-b096-4f21-ab16-8939dd251967",
+        "type": "material",
+        "vehicleId": "649fb1e5-c766-40e3-914b-3d19bb23081a",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "649fb1e5-c766-40e3-914b-3d19bb23081a"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "4be463b9-32c5-4052-aead-b4b58ff68ad0": {
+        "id": "4be463b9-32c5-4052-aead-b4b58ff68ad0",
+        "type": "material",
+        "vehicleId": "649fb1e5-c766-40e3-914b-3d19bb23081a",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "649fb1e5-c766-40e3-914b-3d19bb23081a"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "5c5b7854-0463-423b-9ce0-d517a70c4af1": {
+        "id": "5c5b7854-0463-423b-9ce0-d517a70c4af1",
+        "type": "material",
+        "vehicleId": "649fb1e5-c766-40e3-914b-3d19bb23081a",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "649fb1e5-c766-40e3-914b-3d19bb23081a"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "8c8fd427-a20a-4546-bdf3-a3f8df6a1951": {
+        "id": "8c8fd427-a20a-4546-bdf3-a3f8df6a1951",
+        "type": "material",
+        "vehicleId": "05a9a6cb-e3b1-4b8c-9dd0-694f1692f5ef",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "05a9a6cb-e3b1-4b8c-9dd0-694f1692f5ef"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "d722fc7a-0800-4478-904a-399c653dd13f": {
+        "id": "d722fc7a-0800-4478-904a-399c653dd13f",
+        "type": "material",
+        "vehicleId": "05a9a6cb-e3b1-4b8c-9dd0-694f1692f5ef",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "05a9a6cb-e3b1-4b8c-9dd0-694f1692f5ef"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "34bead9b-7636-4bc4-b108-726bd64091cd": {
+        "id": "34bead9b-7636-4bc4-b108-726bd64091cd",
+        "type": "material",
+        "vehicleId": "05a9a6cb-e3b1-4b8c-9dd0-694f1692f5ef",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "05a9a6cb-e3b1-4b8c-9dd0-694f1692f5ef"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "c4a7c598-cd65-4d26-9922-92bc1233648c": {
+        "id": "c4a7c598-cd65-4d26-9922-92bc1233648c",
+        "type": "material",
+        "vehicleId": "05a9a6cb-e3b1-4b8c-9dd0-694f1692f5ef",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "05a9a6cb-e3b1-4b8c-9dd0-694f1692f5ef"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "972cfd9d-1002-4679-918b-82f9c16de409": {
+        "id": "972cfd9d-1002-4679-918b-82f9c16de409",
+        "type": "material",
+        "vehicleId": "c6b0f682-e5be-4a78-ac17-0fce68548ee7",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "c6b0f682-e5be-4a78-ac17-0fce68548ee7"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "d13350e6-01d0-446d-a8d2-5c4bcdbb5b56": {
+        "id": "d13350e6-01d0-446d-a8d2-5c4bcdbb5b56",
+        "type": "material",
+        "vehicleId": "c6b0f682-e5be-4a78-ac17-0fce68548ee7",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "c6b0f682-e5be-4a78-ac17-0fce68548ee7"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "7d2f2cbc-830f-4ebb-8b02-d42623c3c67c": {
+        "id": "7d2f2cbc-830f-4ebb-8b02-d42623c3c67c",
+        "type": "material",
+        "vehicleId": "c6b0f682-e5be-4a78-ac17-0fce68548ee7",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "c6b0f682-e5be-4a78-ac17-0fce68548ee7"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "a9603307-e07c-461d-b642-dfa3bd588340": {
+        "id": "a9603307-e07c-461d-b642-dfa3bd588340",
+        "type": "material",
+        "vehicleId": "c6b0f682-e5be-4a78-ac17-0fce68548ee7",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "c6b0f682-e5be-4a78-ac17-0fce68548ee7"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "5f1747ab-8ef7-4b37-a58c-a5241a6c5716": {
+        "id": "5f1747ab-8ef7-4b37-a58c-a5241a6c5716",
+        "type": "material",
+        "vehicleId": "0ed1be21-fb2a-435c-80b9-b50761223853",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "0ed1be21-fb2a-435c-80b9-b50761223853"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "506abeb2-9af9-4cec-a08f-79d2275aeddf": {
+        "id": "506abeb2-9af9-4cec-a08f-79d2275aeddf",
+        "type": "material",
+        "vehicleId": "0ed1be21-fb2a-435c-80b9-b50761223853",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "0ed1be21-fb2a-435c-80b9-b50761223853"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "bcf4a93c-eb4d-4bc9-ba86-9fe866403bb4": {
+        "id": "bcf4a93c-eb4d-4bc9-ba86-9fe866403bb4",
+        "type": "material",
+        "vehicleId": "0ed1be21-fb2a-435c-80b9-b50761223853",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "0ed1be21-fb2a-435c-80b9-b50761223853"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "6accb3df-56a5-41e2-8a90-f50854f18dc0": {
+        "id": "6accb3df-56a5-41e2-8a90-f50854f18dc0",
+        "type": "material",
+        "vehicleId": "0ed1be21-fb2a-435c-80b9-b50761223853",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "0ed1be21-fb2a-435c-80b9-b50761223853"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "ef71f700-7ea3-4678-833c-4ecaf0540739": {
+        "id": "ef71f700-7ea3-4678-833c-4ecaf0540739",
+        "type": "material",
+        "vehicleId": "e7c98d61-0e73-433e-afc8-1d532110f791",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "e7c98d61-0e73-433e-afc8-1d532110f791"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "3c5fb362-fe1a-4e46-8ada-597b8d496147": {
+        "id": "3c5fb362-fe1a-4e46-8ada-597b8d496147",
+        "type": "material",
+        "vehicleId": "e7c98d61-0e73-433e-afc8-1d532110f791",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "e7c98d61-0e73-433e-afc8-1d532110f791"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "7a2f05fb-9144-4aef-afa0-928229eb5094": {
+        "id": "7a2f05fb-9144-4aef-afa0-928229eb5094",
+        "type": "material",
+        "vehicleId": "e7c98d61-0e73-433e-afc8-1d532110f791",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "e7c98d61-0e73-433e-afc8-1d532110f791"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "6b65b468-2131-4999-8693-64dfb4dd4242": {
+        "id": "6b65b468-2131-4999-8693-64dfb4dd4242",
+        "type": "material",
+        "vehicleId": "e7c98d61-0e73-433e-afc8-1d532110f791",
+        "vehicleName": "GW-San ???",
+        "assignedPatientIds": {},
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "position": {
+          "type": "vehicle",
+          "vehicleId": "e7c98d61-0e73-433e-afc8-1d532110f791"
+        },
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      }
+    },
+    "mapImages": {},
+    "transferPoints": {
+      "c5d07be9-d7f5-4615-8947-b331fa6e8709": {
+        "id": "c5d07be9-d7f5-4615-8947-b331fa6e8709",
+        "type": "transferPoint",
+        "position": {
+          "type": "simulatedRegion",
+          "simulatedRegionId": "0aed0dcc-5580-40c5-b675-b1add2bd2dc9"
+        },
+        "reachableTransferPoints": {
+          "acecf9b7-f229-4d72-b05f-924b75c02011": { "duration": 24000 },
+          "bb6075b2-d212-421e-9114-50f36e09fcc4": { "duration": 30000 },
+          "fb3be34f-973f-4709-a778-0313088e4391": { "duration": 30000 },
+          "86fc5356-d8d8-45ba-a4f0-ab8ffedc0196": { "duration": 30000 }
+        },
+        "reachableHospitals": {},
+        "internalName": "",
+        "externalName": "[Simuliert] Einsatzabschnitt ???"
+      },
+      "acecf9b7-f229-4d72-b05f-924b75c02011": {
+        "id": "acecf9b7-f229-4d72-b05f-924b75c02011",
+        "type": "transferPoint",
+        "position": {
+          "type": "coordinates",
+          "coordinates": { "x": 1461735.0924998748, "y": 6871560.971807403 }
+        },
+        "reachableTransferPoints": {
+          "c5d07be9-d7f5-4615-8947-b331fa6e8709": { "duration": 24000 }
+        },
+        "reachableHospitals": {},
+        "internalName": "???",
+        "externalName": "???"
+      },
+      "bb6075b2-d212-421e-9114-50f36e09fcc4": {
+        "id": "bb6075b2-d212-421e-9114-50f36e09fcc4",
+        "type": "transferPoint",
+        "position": {
+          "type": "coordinates",
+          "coordinates": { "x": 1461775.6273960604, "y": 6871545.956277348 }
+        },
+        "reachableTransferPoints": {
+          "c5d07be9-d7f5-4615-8947-b331fa6e8709": { "duration": 30000 }
+        },
+        "reachableHospitals": {},
+        "internalName": "???",
+        "externalName": "???"
+      },
+      "fb3be34f-973f-4709-a778-0313088e4391": {
+        "id": "fb3be34f-973f-4709-a778-0313088e4391",
+        "type": "transferPoint",
+        "position": {
+          "type": "simulatedRegion",
+          "simulatedRegionId": "b9008058-3d58-4654-b344-5cd768a70309"
+        },
+        "reachableTransferPoints": {
+          "c5d07be9-d7f5-4615-8947-b331fa6e8709": { "duration": 30000 }
+        },
+        "reachableHospitals": {},
+        "internalName": "",
+        "externalName": "[Simuliert] Einsatzabschnitt ???"
+      },
+      "86fc5356-d8d8-45ba-a4f0-ab8ffedc0196": {
+        "id": "86fc5356-d8d8-45ba-a4f0-ab8ffedc0196",
+        "type": "transferPoint",
+        "position": {
+          "type": "simulatedRegion",
+          "simulatedRegionId": "fda4ec8f-d4bf-4761-b5fc-06d3fb38e0ae"
+        },
+        "reachableTransferPoints": {
+          "c5d07be9-d7f5-4615-8947-b331fa6e8709": { "duration": 30000 }
+        },
+        "reachableHospitals": {},
+        "internalName": "",
+        "externalName": "[Simuliert] Einsatzabschnitt ???"
+      }
+    },
+    "hospitals": {},
+    "hospitalPatients": {},
+    "alarmGroups": {},
+    "clients": {
+      "c547c6f1-954d-450a-b2a2-be230d14887c": {
+        "id": "c547c6f1-954d-450a-b2a2-be230d14887c",
+        "type": "client",
+        "name": "",
+        "role": "trainer",
+        "isInWaitingRoom": false
+      }
+    },
+    "radiograms": {
+      "4f31ab4f-c2ac-43c2-b0af-8a96463d0e51": {
+        "id": "4f31ab4f-c2ac-43c2-b0af-8a96463d0e51",
+        "type": "missingTransferConnectionRadiogram",
+        "simulatedRegionId": "0aed0dcc-5580-40c5-b675-b1add2bd2dc9",
+        "status": { "type": "unreadRadiogramStatus", "publishTime": 2000 },
+        "informationAvailable": true,
+        "targetTransferPointId": "86fc5356-d8d8-45ba-a4f0-ab8ffedc0196"
+      }
+    },
+    "patientCategories": [
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "X", "behaviourCode": "A" },
+          "secondField": { "colorCode": "X", "behaviourCode": "A" },
+          "thirdField": { "colorCode": "X", "behaviourCode": "A" },
+          "tags": ["P"]
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "5a366d66-869c-4a24-a5bf-5face82d668e",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "blaue Augen, rothaarig, 1,69 m",
+              "age": 16
+            },
+            "pretriageInformation": {
+              "injuries": "Prellmarke an der Stirn; blutende Wunde am linken Unterarm",
+              "bodyCheck": "leichte Schmerzen beim Auftreten im rechten Sprunggelenk; Schwanger; sonst o.B.",
+              "breathing": "unauffällig",
+              "awareness": "leicht verwirrt",
+              "pulse": "79; gut tastbar",
+              "skin": "unauffällig",
+              "pain": "leichte",
+              "pupils": "isocor",
+              "psyche": "ängstlich",
+              "hearing": "unauffällig",
+              "isWalkable": true
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              }
+            },
+            "startingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+            "health": 100000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "X", "behaviourCode": "A" },
+          "secondField": { "colorCode": "X", "behaviourCode": "A" },
+          "thirdField": { "colorCode": "X", "behaviourCode": "D" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "359b27de-c64e-4f11-9ea9-22ccfe0728fb",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "braune Haare, braune Augen, 1,72 m",
+              "age": 35
+            },
+            "pretriageInformation": {
+              "injuries": "keine äußeren Verletzungen sichtbar",
+              "bodyCheck": "Pat. ist teilnahmslos; keine Kooperation bei der Untersuchung",
+              "breathing": "unauffällig",
+              "awareness": "verwirrt",
+              "pulse": "82; Puls gut tastbar",
+              "skin": "unauffällig",
+              "pain": "keine",
+              "pupils": "isocor",
+              "psyche": "teilnahmslos",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "74d389b6-06fc-4d74-bbd5-9533305b9c4d": {
+                "id": "74d389b6-06fc-4d74-bbd5-9533305b9c4d",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -6.944444444444445,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 50000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "74d389b6-06fc-4d74-bbd5-9533305b9c4d",
+            "health": 100000
+          },
+          {
+            "id": "da6003e4-2491-4b03-aea8-79299eb3aaf4",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "male",
+              "externalFeatures": "1,89 m, Vollbart, blond, blauäugig",
+              "age": 25
+            },
+            "pretriageInformation": {
+              "injuries": "keine äußeren Verletzungen zu sehen",
+              "bodyCheck": "Pat. ist nahezu hysterisch; es besteht keine Kooperation bei Untersuchung",
+              "breathing": "unauffällig",
+              "awareness": "wach aber verwirrt",
+              "pulse": "94",
+              "skin": "unauffällig",
+              "pain": "keine",
+              "pupils": "isocor",
+              "psyche": "hysterisch",
+              "hearing": "schwerhörig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "4f28451e-319c-48b9-a23f-497ca0b8b47d": {
+                "id": "4f28451e-319c-48b9-a23f-497ca0b8b47d",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -6.313131313131313,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 50000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "4f28451e-319c-48b9-a23f-497ca0b8b47d",
+            "health": 100000
+          },
+          {
+            "id": "d2cb739e-8bf6-4b69-a24a-207bcf3dd056",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "1,76m, hellblond, blaue Augen, Brille",
+              "age": 35
+            },
+            "pretriageInformation": {
+              "injuries": "äußerlich keine Verletzungen",
+              "bodyCheck": "keine Kooperation bei Untersuchung; Pat. hysterisch und verwirrt",
+              "breathing": "unauffällig",
+              "awareness": "wach, verwirrt",
+              "pulse": "95",
+              "skin": "unauffällig",
+              "pain": "keine",
+              "pupils": "isocor",
+              "psyche": "hysterisch",
+              "hearing": "schwerhörig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "2e6cb369-5c61-421d-afbc-6c0a1af9acd8": {
+                "id": "2e6cb369-5c61-421d-afbc-6c0a1af9acd8",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -5.787037037037037,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 50000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "2e6cb369-5c61-421d-afbc-6c0a1af9acd8",
+            "health": 100000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "X", "behaviourCode": "A" },
+          "secondField": { "colorCode": "X", "behaviourCode": "D" },
+          "thirdField": { "colorCode": "X", "behaviourCode": "A" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "b5ca7402-79d4-42d4-a370-d87bd195eb6a",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "braune Haare, braune Augen, 1,79 m, adipös",
+              "age": 50
+            },
+            "pretriageInformation": {
+              "injuries": "leichte Augenverletzung rechts",
+              "bodyCheck": "Pat. wirkt apathisch; keine Kooperation bei Untersuchung; Prellung Unterschenkel rechts; starke Schmerzen nur beim Auftreten",
+              "breathing": "unauffällig",
+              "awareness": "wach, verwirrt",
+              "pulse": "83; Puls flach",
+              "skin": "unauffällig",
+              "pain": "stark, aber nur beim Auftreten",
+              "pupils": "isocor",
+              "psyche": "teilnahmslos",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "91f62fa7-5cc8-48d9-afe3-8ea056438fe9": {
+                "id": "91f62fa7-5cc8-48d9-afe3-8ea056438fe9",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -9.920634920634921,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "da045d89-7532-4d5e-a328-a65504e437bb",
+                    "maximumHealth": 50000
+                  }
+                ]
+              },
+              "da045d89-7532-4d5e-a328-a65504e437bb": {
+                "id": "da045d89-7532-4d5e-a328-a65504e437bb",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "58599bfa-add6-4dc9-9e65-b5cf3f8629b3",
+                    "earliestTime": 720000
+                  }
+                ]
+              },
+              "58599bfa-add6-4dc9-9e65-b5cf3f8629b3": {
+                "id": "58599bfa-add6-4dc9-9e65-b5cf3f8629b3",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 48.611111111111114,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "minimumHealth": 85000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "91f62fa7-5cc8-48d9-afe3-8ea056438fe9",
+            "health": 100000
+          },
+          {
+            "id": "cb066da1-2cf0-46c3-b9e7-6f956e70938a",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "1,59 m, blaue Augen, graue Haare",
+              "age": 65
+            },
+            "pretriageInformation": {
+              "injuries": "äußerlich keine Verletzungen",
+              "bodyCheck": "leichter Druckschmerzen im linkes Bein",
+              "breathing": "unauffällig",
+              "awareness": "wach, verwirrt",
+              "pulse": "89",
+              "skin": "unauffällig",
+              "pain": "keine",
+              "pupils": "isocor",
+              "psyche": "aufgeregt",
+              "hearing": "unauffällig",
+              "isWalkable": true
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "c01c0eaa-b79d-44f3-927c-b3f4666ae97c": {
+                "id": "c01c0eaa-b79d-44f3-927c-b3f4666ae97c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -8.680555555555555,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "da045d89-7532-4d5e-a328-a65504e437bb",
+                    "maximumHealth": 50000
+                  }
+                ]
+              },
+              "da045d89-7532-4d5e-a328-a65504e437bb": {
+                "id": "da045d89-7532-4d5e-a328-a65504e437bb",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "58599bfa-add6-4dc9-9e65-b5cf3f8629b3",
+                    "earliestTime": 720000
+                  }
+                ]
+              },
+              "58599bfa-add6-4dc9-9e65-b5cf3f8629b3": {
+                "id": "58599bfa-add6-4dc9-9e65-b5cf3f8629b3",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 48.611111111111114,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "minimumHealth": 85000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "c01c0eaa-b79d-44f3-927c-b3f4666ae97c",
+            "health": 100000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "X", "behaviourCode": "D" },
+          "secondField": { "colorCode": "X", "behaviourCode": "D" },
+          "thirdField": { "colorCode": "X", "behaviourCode": "A" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "ce8f88c6-ba53-4d7a-924d-4808b7a266d7",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "male",
+              "externalFeatures": "Spitzbart, blaue Augen, blonde Haare, 182 cm",
+              "age": 52
+            },
+            "pretriageInformation": {
+              "injuries": "leicht blutende Wunde an der linken Hand, evt. Glassplitter in der Tiefe sichtbar; Prellmarke rechte Schläfe",
+              "bodyCheck": "leichte Schmerzen beim Auftreten im linken Fuß",
+              "breathing": "unauffällig",
+              "awareness": "wach, verwirrt",
+              "pulse": "85; Puls gut tastbar",
+              "skin": "unauffällig",
+              "pain": "leichte",
+              "pupils": "isocor",
+              "psyche": "aufgeregt",
+              "hearing": "unauffällig",
+              "isWalkable": true
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "4045f2ab-56ac-407f-9ee7-bfa31db140f8": {
+                "id": "4045f2ab-56ac-407f-9ee7-bfa31db140f8",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -34.72222222222222,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "db140b1a-25d6-49a6-9222-adfb7e6e774d",
+                    "maximumHealth": 50000
+                  }
+                ]
+              },
+              "db140b1a-25d6-49a6-9222-adfb7e6e774d": {
+                "id": "db140b1a-25d6-49a6-9222-adfb7e6e774d",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "d8584878-a94a-48b3-976f-0bf43b5a9ab9",
+                    "earliestTime": 1440000
+                  }
+                ]
+              },
+              "d8584878-a94a-48b3-976f-0bf43b5a9ab9": {
+                "id": "d8584878-a94a-48b3-976f-0bf43b5a9ab9",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 16.203703703703702,
+                  "notarztModifier": 48.611111111111114,
+                  "notSanModifier": 48.611111111111114,
+                  "rettSanModifier": 48.611111111111114
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "minimumHealth": 85000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "4045f2ab-56ac-407f-9ee7-bfa31db140f8",
+            "health": 100000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "X", "behaviourCode": "A" },
+          "secondField": { "colorCode": "X", "behaviourCode": "A" },
+          "thirdField": { "colorCode": "Y", "behaviourCode": "B" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "b9ae9ecf-ea84-4f0b-8bd1-0ce2bdd100bb",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "1,66 m, blond, blaue Augen",
+              "age": 30
+            },
+            "pretriageInformation": {
+              "injuries": "Zeigefingeramputation rechts",
+              "bodyCheck": "dezenter Druckschmerzen im rechten Bein",
+              "breathing": "unauffällig",
+              "awareness": "wach, verwirrt",
+              "pulse": "98; rhythmisch",
+              "skin": "unauffällig",
+              "pain": "keine",
+              "pupils": "isocor",
+              "psyche": "ängstlich",
+              "hearing": "unauffällig",
+              "isWalkable": true
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "10ce587f-29a4-4a70-af7f-fd1d587c32e7": {
+                "id": "10ce587f-29a4-4a70-af7f-fd1d587c32e7",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -7.716049382716049,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "21b9b571-9d36-4656-bf37-dbedd4bee262",
+                    "maximumHealth": 50000
+                  }
+                ]
+              },
+              "21b9b571-9d36-4656-bf37-dbedd4bee262": {
+                "id": "21b9b571-9d36-4656-bf37-dbedd4bee262",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -41.666666666666664,
+                  "notarztModifier": 90.27777777777777,
+                  "notSanModifier": 41.666666666666664,
+                  "rettSanModifier": 41.666666666666664
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "b6063c7a-5127-4a89-a6a0-2ed597d51b4e",
+                    "earliestTime": 720000
+                  }
+                ]
+              },
+              "b6063c7a-5127-4a89-a6a0-2ed597d51b4e": {
+                "id": "b6063c7a-5127-4a89-a6a0-2ed597d51b4e",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -41.666666666666664,
+                  "notarztModifier": 69.44444444444444,
+                  "notSanModifier": 69.44444444444444,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "minimumHealth": 100000
+                  },
+                  {
+                    "matchingHealthStateId": "76b93173-db81-4ae1-931c-7f4f6ff4f66a",
+                    "earliestTime": 720000
+                  }
+                ]
+              },
+              "76b93173-db81-4ae1-931c-7f4f6ff4f66a": {
+                "id": "76b93173-db81-4ae1-931c-7f4f6ff4f66a",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -69.44444444444444,
+                  "notarztModifier": 93.05555555555556,
+                  "notSanModifier": 93.05555555555556,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "minimumHealth": 85000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "10ce587f-29a4-4a70-af7f-fd1d587c32e7",
+            "health": 100000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "X", "behaviourCode": "D" },
+          "secondField": { "colorCode": "Z", "behaviourCode": "B" },
+          "thirdField": { "colorCode": "Z", "behaviourCode": "C" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "acdf56e9-35ce-4ddf-9387-e24039a1633f",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "graue Haare, blaue Augen, 1,69 m, Brille",
+              "age": 76
+            },
+            "pretriageInformation": {
+              "injuries": "keine äußeren Verletzungen",
+              "bodyCheck": "dezenter Druckschmerzen im linken Bein in Höhe der Patella",
+              "breathing": "unauffällig",
+              "awareness": "wach, verwirrt",
+              "pulse": "97; Puls gut tastbar",
+              "skin": "warm, rot",
+              "pain": "keine",
+              "pupils": "isocor",
+              "psyche": "sehr aufgeregt",
+              "hearing": "unauffällig",
+              "isWalkable": true
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "82ef3222-6122-4bbf-86f7-bb2b1a448169": {
+                "id": "82ef3222-6122-4bbf-86f7-bb2b1a448169",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -17.36111111111111,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "8829e1fb-e093-4345-9606-210d898c675b",
+                    "maximumHealth": 50000
+                  }
+                ]
+              },
+              "8829e1fb-e093-4345-9606-210d898c675b": {
+                "id": "8829e1fb-e093-4345-9606-210d898c675b",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -41.666666666666664,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "16bdfec7-919b-457e-9d4e-33e75757b35c",
+                    "maximumHealth": 20000
+                  }
+                ]
+              },
+              "16bdfec7-919b-457e-9d4e-33e75757b35c": {
+                "id": "16bdfec7-919b-457e-9d4e-33e75757b35c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -27.77777777777778,
+                  "notarztModifier": 27.77777777777778,
+                  "notSanModifier": 27.77777777777778,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  },
+                  {
+                    "matchingHealthStateId": "24643314-ea63-487f-a22b-d3af0c0229c5",
+                    "earliestTime": 2880000
+                  }
+                ]
+              },
+              "24643314-ea63-487f-a22b-d3af0c0229c5": {
+                "id": "24643314-ea63-487f-a22b-d3af0c0229c5",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -13.88888888888889,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "82ef3222-6122-4bbf-86f7-bb2b1a448169",
+            "health": 100000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "Y", "behaviourCode": "A" },
+          "secondField": { "colorCode": "X", "behaviourCode": "A" },
+          "thirdField": { "colorCode": "X", "behaviourCode": "A" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "1e79b172-7ef5-44f5-a563-6728a120956e",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "male",
+              "externalFeatures": "dunkle Haare, braune Augen, Muttermal Stirn, 165 cm",
+              "age": 14
+            },
+            "pretriageInformation": {
+              "injuries": "Kunststofffremdkörper linker Oberarm; Schulterfraktur links; Luxationsfraktur rechtes Handgelenk",
+              "bodyCheck": "Risswunde am Hinterkopf; Hüftprellung rechts",
+              "breathing": "unauffällig",
+              "awareness": "wach, orientiert",
+              "pulse": "124; Puls kräftig",
+              "skin": "unauffällig",
+              "pain": "starke",
+              "pupils": "isocor",
+              "psyche": "aufgeregt",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "47375168-f43e-42e5-bab2-6d8870ef56f7": {
+                "id": "47375168-f43e-42e5-bab2-6d8870ef56f7",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 4.444444444444445,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "minimumHealth": 85000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "47375168-f43e-42e5-bab2-6d8870ef56f7",
+            "health": 50000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "Y", "behaviourCode": "B" },
+          "secondField": { "colorCode": "X", "behaviourCode": "A" },
+          "thirdField": { "colorCode": "X", "behaviourCode": "A" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "998a3d29-0331-41d2-a197-089b5b3b5e98",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "male",
+              "externalFeatures": "blaue Augen, weiße Haare, 174 cm",
+              "age": 72
+            },
+            "pretriageInformation": {
+              "injuries": "Fehlstellung linker Oberarm; offene Fraktur Unterarm links; große Platzwunde Kopf; Handquetschung links; Dialysepatient",
+              "bodyCheck": "Schlüsselbeinfraktur rechts; Thoraxprellung auf der gleichen Seite",
+              "breathing": "unauffällig",
+              "awareness": "wach und orientiert",
+              "pulse": "122; Puls kräftig",
+              "skin": "unauffällig",
+              "pain": "starke",
+              "pupils": "isocor",
+              "psyche": "aufgeregt",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "c6e7aa76-9804-410e-91e7-f703161da03c": {
+                "id": "c6e7aa76-9804-410e-91e7-f703161da03c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "61e37a76-96b6-4ba3-8d50-13053116eb8a",
+                    "earliestTime": 2880000
+                  }
+                ]
+              },
+              "61e37a76-96b6-4ba3-8d50-13053116eb8a": {
+                "id": "61e37a76-96b6-4ba3-8d50-13053116eb8a",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 22.22222222222222,
+                  "notSanModifier": 22.22222222222222,
+                  "rettSanModifier": 22.22222222222222
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "minimumHealth": 85000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "c6e7aa76-9804-410e-91e7-f703161da03c",
+            "health": 50000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "Y", "behaviourCode": "B" },
+          "secondField": { "colorCode": "Y", "behaviourCode": "A" },
+          "thirdField": { "colorCode": "Y", "behaviourCode": "A" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "9ab3fae7-8381-4c78-8019-211de19d5bae",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "male",
+              "externalFeatures": "Vollbart, blond, blaue Augen, 1,87 m",
+              "age": 55
+            },
+            "pretriageInformation": {
+              "injuries": "Prellmarke Unterschenkel rechts; Fehlstellung rechtes Sprunggelenk; Wunde Unterarm rechts",
+              "bodyCheck": "Druckschmerz rechte Hüfte; Prellung Unterschenkel links",
+              "breathing": "unauffällig",
+              "awareness": "wach, verwirrt",
+              "pulse": "123; Puls flach",
+              "skin": "kaltschweißig",
+              "pain": "starke",
+              "pupils": "isocor",
+              "psyche": "aufgeregt",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "5b407027-78c0-419b-be83-25cc3bffa3fa": {
+                "id": "5b407027-78c0-419b-be83-25cc3bffa3fa",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "f1d0fe53-20e3-4d2b-84d5-b874bc81bd84",
+                    "earliestTime": 2880000
+                  }
+                ]
+              },
+              "f1d0fe53-20e3-4d2b-84d5-b874bc81bd84": {
+                "id": "f1d0fe53-20e3-4d2b-84d5-b874bc81bd84",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -41.666666666666664,
+                  "notarztModifier": 41.666666666666664,
+                  "notSanModifier": 41.666666666666664,
+                  "rettSanModifier": 41.666666666666664
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 33000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "5b407027-78c0-419b-be83-25cc3bffa3fa",
+            "health": 50000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "Y", "behaviourCode": "A" },
+          "secondField": { "colorCode": "Y", "behaviourCode": "B" },
+          "thirdField": { "colorCode": "Y", "behaviourCode": "A" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "1e8fdf2d-b8c3-4878-9d3e-5c7bdf7d4779",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "male",
+              "externalFeatures": "Glatze, graublaue Augen, Brille, 174 cm",
+              "age": 57
+            },
+            "pretriageInformation": {
+              "injuries": "leicht blutende Wunde Unterarm links; grobe Fehlstellung rechtes Sprunggelenk; Prellmarke Unterschenkel rechts",
+              "bodyCheck": "Druckschmerz linke Hüfte; Prellung Unterschenkel links; Schmerzen im Genitalbereich",
+              "breathing": "unauffällig",
+              "awareness": "wach aber verwirrt",
+              "pulse": "122; Puls kräftig",
+              "skin": "kaltschweißig",
+              "pain": "starke",
+              "pupils": "isocor",
+              "psyche": "hysterisch",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              }
+            },
+            "startingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+            "health": 50000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "Y", "behaviourCode": "D" },
+          "secondField": { "colorCode": "Y", "behaviourCode": "B" },
+          "thirdField": { "colorCode": "Y", "behaviourCode": "B" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "5c4b5e96-c149-4578-b740-7184ba4693e0",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "graue Haare, Brille, braune Augen, ca. 1,70 m",
+              "age": 71
+            },
+            "pretriageInformation": {
+              "injuries": "rechte Hand stark schmerzhaft; kleine blutende Platzwunde am Kopf; Glasfremdkörper am ganzen rechten Arm; unstillbares Nasenbluten",
+              "bodyCheck": "Thoraxprellung links; Schlüsselbeinfraktur links",
+              "breathing": "unauffällig",
+              "awareness": "wach, verwirrt",
+              "pulse": "132; Puls kräftig",
+              "skin": "kühl, blass",
+              "pain": "starke",
+              "pupils": "isocor",
+              "psyche": "aggressiv",
+              "hearing": "unauffällig",
+              "isWalkable": true
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "1cab49ff-c7b1-4c54-b21b-2436dc592ba1": {
+                "id": "1cab49ff-c7b1-4c54-b21b-2436dc592ba1",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -13.88888888888889,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "9ae61835-95d3-4212-97d9-176d28d033a3",
+                    "maximumHealth": 20000
+                  }
+                ]
+              },
+              "9ae61835-95d3-4212-97d9-176d28d033a3": {
+                "id": "9ae61835-95d3-4212-97d9-176d28d033a3",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 20.833333333333332,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "6a54a4ff-73a2-4df3-a3ee-f27452dcdcb5",
+                    "minimumHealth": 50000
+                  }
+                ]
+              },
+              "6a54a4ff-73a2-4df3-a3ee-f27452dcdcb5": {
+                "id": "6a54a4ff-73a2-4df3-a3ee-f27452dcdcb5",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "a1bf1f8e-449f-4931-818e-1d47241e87b8",
+                    "earliestTime": 2160000
+                  }
+                ]
+              },
+              "a1bf1f8e-449f-4931-818e-1d47241e87b8": {
+                "id": "a1bf1f8e-449f-4931-818e-1d47241e87b8",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -41.666666666666664,
+                  "notarztModifier": 41.666666666666664,
+                  "notSanModifier": 41.666666666666664,
+                  "rettSanModifier": 41.666666666666664
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "1a3880ab-bd50-409b-9444-d8cfaf032254",
+                    "earliestTime": 720000
+                  }
+                ]
+              },
+              "1a3880ab-bd50-409b-9444-d8cfaf032254": {
+                "id": "1a3880ab-bd50-409b-9444-d8cfaf032254",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -41.666666666666664,
+                  "notarztModifier": 41.666666666666664,
+                  "notSanModifier": 41.666666666666664,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "2dab379b-ba2e-4ea4-9819-3b47712aa655",
+                    "earliestTime": 720000
+                  }
+                ]
+              },
+              "2dab379b-ba2e-4ea4-9819-3b47712aa655": {
+                "id": "2dab379b-ba2e-4ea4-9819-3b47712aa655",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -69.44444444444444,
+                  "notarztModifier": 69.44444444444444,
+                  "notSanModifier": 69.44444444444444,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "minimumHealth": 50000
+                  },
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "1cab49ff-c7b1-4c54-b21b-2436dc592ba1",
+            "health": 50000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "Y", "behaviourCode": "C" },
+          "secondField": { "colorCode": "Z", "behaviourCode": "C" },
+          "thirdField": { "colorCode": "V", "behaviourCode": "E" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "59d16ed9-e8ba-43ab-ac53-d72dd96cbdba",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "grüne Augen, grauhaarig, 1,68 m, adipös, Brille",
+              "age": 51
+            },
+            "pretriageInformation": {
+              "injuries": "starke Schmerzen am linken Sprunggelenk; Prellmarke und Schürfwunde linker Unterschenkel",
+              "bodyCheck": "Beckenprellung, Fraktur nicht auszuschließen",
+              "breathing": "unauffällig",
+              "awareness": "wach, verwirrt",
+              "pulse": "97; Puls gut tastbar",
+              "skin": "kaltschweißig",
+              "pain": "stärkste",
+              "pupils": "isocor",
+              "psyche": "hysterisch",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "bedfdca6-2883-4c5f-96e9-75d1a7919699": {
+                "id": "bedfdca6-2883-4c5f-96e9-75d1a7919699",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -10.416666666666666,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "8fb241d1-6c5c-4406-9d7c-7e97b196084b",
+                    "maximumHealth": 20000
+                  }
+                ]
+              },
+              "8fb241d1-6c5c-4406-9d7c-7e97b196084b": {
+                "id": "8fb241d1-6c5c-4406-9d7c-7e97b196084b",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -13.88888888888889,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "bedfdca6-2883-4c5f-96e9-75d1a7919699",
+            "health": 50000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "Z", "behaviourCode": "B" },
+          "secondField": { "colorCode": "Z", "behaviourCode": "A" },
+          "thirdField": { "colorCode": "Z", "behaviourCode": "A" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "3be84176-abb0-4f3a-9f0f-dd1f8cb2dc7b",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "male",
+              "externalFeatures": "1,86 m, Glatze, braune Augen, Brille",
+              "age": 60
+            },
+            "pretriageInformation": {
+              "injuries": "Prellmarken linker Thorax; offene Oberarmfraktur rechts",
+              "bodyCheck": "Rippenserienfraktur li.; Beckenprellung rechts; Hämatom hinter dem rechten Ohr; einseitig hebender Thorax rechts",
+              "breathing": "flache Schonatmung",
+              "awareness": "somnolent",
+              "pulse": "134; Puls fadenförmig",
+              "skin": "zyanotisch",
+              "pain": "stärkste",
+              "pupils": "isocor",
+              "psyche": "teilnahmslos",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "d154beab-0a4c-45b6-83ab-1c2233af84bd": {
+                "id": "d154beab-0a4c-45b6-83ab-1c2233af84bd",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -13.88888888888889,
+                  "notarztModifier": 13.88888888888889,
+                  "notSanModifier": 13.88888888888889,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  },
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "earliestTime": 2160000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "d154beab-0a4c-45b6-83ab-1c2233af84bd",
+            "health": 20000
+          },
+          {
+            "id": "3b1880e4-ab5e-4824-9ade-2077e2c7fa77",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "male",
+              "externalFeatures": "1,84 m, braune Augen, Brille, braune Haare",
+              "age": 15
+            },
+            "pretriageInformation": {
+              "injuries": "Weichteilquetschung rechter Unterschenkel, mäßig blutend, aber schon deutlicher Blutverlust",
+              "bodyCheck": "Oberschenkelfraktur rechts; kleiner Eisenfremdkörper in der linken Hand",
+              "breathing": "flache Atmung",
+              "awareness": "somnolent",
+              "pulse": "154; Puls fadenförmig",
+              "skin": "grau marmoriert",
+              "pain": "stärkste",
+              "pupils": "isocor",
+              "psyche": "teilnahmslos",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "d154beab-0a4c-45b6-83ab-1c2233af84bd": {
+                "id": "d154beab-0a4c-45b6-83ab-1c2233af84bd",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -13.88888888888889,
+                  "notarztModifier": 13.88888888888889,
+                  "notSanModifier": 13.88888888888889,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  },
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "earliestTime": 2160000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "d154beab-0a4c-45b6-83ab-1c2233af84bd",
+            "health": 20000
+          },
+          {
+            "id": "0d1f5e77-4dcc-4919-87d4-2b023bbc3f84",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "1,75 m, blonde Haare, blaue Augen, Brille, extrem adipös",
+              "age": 50
+            },
+            "pretriageInformation": {
+              "injuries": "Kopfplatzwunde über dem Ohr; Prellmarke Stirn; Gesicht blutverschmiert",
+              "bodyCheck": "Unterarmfraktur rechts",
+              "breathing": "Atemwegsverlegung",
+              "awareness": "bewusstlos, Massenbewegungen auf Schmerz",
+              "pulse": "85; gut tastbar",
+              "skin": "tief zyanotisch",
+              "pain": "entfällt",
+              "pupils": "rechts weit",
+              "psyche": "entfällt",
+              "hearing": "entfällt",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "d154beab-0a4c-45b6-83ab-1c2233af84bd": {
+                "id": "d154beab-0a4c-45b6-83ab-1c2233af84bd",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -13.88888888888889,
+                  "notarztModifier": 13.88888888888889,
+                  "notSanModifier": 13.88888888888889,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  },
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "earliestTime": 2160000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "d154beab-0a4c-45b6-83ab-1c2233af84bd",
+            "health": 20000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "Z", "behaviourCode": "B" },
+          "secondField": { "colorCode": "Z", "behaviourCode": "A" },
+          "thirdField": { "colorCode": "Z", "behaviourCode": "A" },
+          "tags": ["P"]
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "f73010bc-10a2-4db9-a2e5-edc8e21b25a4",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "1,72 m, braune Augen, blonde Haare",
+              "age": 25
+            },
+            "pretriageInformation": {
+              "injuries": "offene Fraktur rechter Unterschenkel, nur noch mäßig blutend, aber schon großer Blutverlust; Wunde linke Schläfe; schwanger ca. 36 SSW",
+              "bodyCheck": "schulternahe Oberarmfraktur rechts; linke Hand mit Fehlstellung im Handgelenk",
+              "breathing": "flache Atmung",
+              "awareness": "somnolent",
+              "pulse": "150; Puls fadenförmig",
+              "skin": "grau marmoriert",
+              "pain": "stärkste",
+              "pupils": "isocor",
+              "psyche": "teilnahmslos",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "d154beab-0a4c-45b6-83ab-1c2233af84bd": {
+                "id": "d154beab-0a4c-45b6-83ab-1c2233af84bd",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -13.88888888888889,
+                  "notarztModifier": 13.88888888888889,
+                  "notSanModifier": 13.88888888888889,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  },
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "earliestTime": 2160000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "d154beab-0a4c-45b6-83ab-1c2233af84bd",
+            "health": 20000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "Z", "behaviourCode": "B" },
+          "secondField": { "colorCode": "Z", "behaviourCode": "C" },
+          "thirdField": { "colorCode": "V", "behaviourCode": "E" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "accc504a-f24b-41b7-ad98-29167a4fee0e",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "graue Haare, Brille, grüne Augen, ca. 1,60 m",
+              "age": 80
+            },
+            "pretriageInformation": {
+              "injuries": "große Weichteilquetschung linker Unterschenkel, nur noch mäßig blutend; aber schon deutlicher Blutverlust",
+              "bodyCheck": "Oberarmfraktur rechts; fraglicher Fremdkörper rechte Hand in Wunde; blutende Prellmarke am Hinterkopf",
+              "breathing": "flache Atmung",
+              "awareness": "somnolent",
+              "pulse": "132; fadenförmig",
+              "skin": "grau marmoriert",
+              "pain": "stärkste",
+              "pupils": "isocor",
+              "psyche": "teilnahmslos",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "aa953a65-be0e-4658-98c6-446b47117899": {
+                "id": "aa953a65-be0e-4658-98c6-446b47117899",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -13.88888888888889,
+                  "notarztModifier": 13.88888888888889,
+                  "notSanModifier": 13.88888888888889,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  },
+                  {
+                    "matchingHealthStateId": "245003ab-043a-4e7d-83ff-d1fc4432bb3d",
+                    "earliestTime": 2160000
+                  }
+                ]
+              },
+              "245003ab-043a-4e7d-83ff-d1fc4432bb3d": {
+                "id": "245003ab-043a-4e7d-83ff-d1fc4432bb3d",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "9f0935db-c212-4227-9bed-34175dbc04d9",
+                    "earliestTime": 1440000
+                  }
+                ]
+              },
+              "9f0935db-c212-4227-9bed-34175dbc04d9": {
+                "id": "9f0935db-c212-4227-9bed-34175dbc04d9",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -9.25925925925926,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "aa953a65-be0e-4658-98c6-446b47117899",
+            "health": 20000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "Z", "behaviourCode": "C" },
+          "secondField": { "colorCode": "Z", "behaviourCode": "C" },
+          "thirdField": { "colorCode": "V", "behaviourCode": "E" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "746316ab-3ba8-4321-94d6-eedc44dc0597",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "male",
+              "externalFeatures": "1,78m, Bart, schwarzhaarig, braune Augen",
+              "age": 50
+            },
+            "pretriageInformation": {
+              "injuries": "Teil-Amputation rechter Unterarm, spritzend blutend; schon großer Blutverlust",
+              "bodyCheck": "geschlossene Oberschenkelfraktur links; Metallfremdkörper rechter Unterschenkel",
+              "breathing": "flache Atmung",
+              "awareness": "somnolent",
+              "pulse": "145; fadenförmig",
+              "skin": "grau marmoriert",
+              "pain": "stärkste",
+              "pupils": "isocor",
+              "psyche": "teilnahmslos",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "cff2b3db-9bc5-4cd7-a4ed-9d8b9d6bc8a9": {
+                "id": "cff2b3db-9bc5-4cd7-a4ed-9d8b9d6bc8a9",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -13.88888888888889,
+                  "notarztModifier": 13.88888888888889,
+                  "notSanModifier": 13.88888888888889,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  },
+                  {
+                    "matchingHealthStateId": "9f0935db-c212-4227-9bed-34175dbc04d9",
+                    "earliestTime": 2160000
+                  }
+                ]
+              },
+              "9f0935db-c212-4227-9bed-34175dbc04d9": {
+                "id": "9f0935db-c212-4227-9bed-34175dbc04d9",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -9.25925925925926,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "cff2b3db-9bc5-4cd7-a4ed-9d8b9d6bc8a9",
+            "health": 20000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "Z", "behaviourCode": "C" },
+          "secondField": { "colorCode": "V", "behaviourCode": "E" },
+          "thirdField": { "colorCode": "V", "behaviourCode": "E" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "dec78096-7dc8-468e-b147-a7d7148ab421",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "1,64 m, blaue Augen, blond",
+              "age": 55
+            },
+            "pretriageInformation": {
+              "injuries": "starke Schmerzen im gesamten Abdomen mit gespannter Bauchdecke",
+              "bodyCheck": "Prellmarken und Wunde linke Flanke; Rippenserienfraktur links",
+              "breathing": "schwere Atemnot 30/min.",
+              "awareness": "wach, verwirrt",
+              "pulse": "114; flach",
+              "skin": "kühl, blass",
+              "pain": "starke Bauchschmerzen",
+              "pupils": "isocor",
+              "psyche": "ängstlich",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "9f0935db-c212-4227-9bed-34175dbc04d9": {
+                "id": "9f0935db-c212-4227-9bed-34175dbc04d9",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -9.25925925925926,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "9f0935db-c212-4227-9bed-34175dbc04d9",
+            "health": 20000
+          }
+        ]
+      }
+    ],
+    "vehicleTemplates": [
+      {
+        "id": "d1722c41-8804-44c0-b1da-35948e447eac",
+        "type": "vehicleTemplate",
+        "vehicleType": "RTW",
+        "name": "RTW ???",
+        "image": {
+          "url": "/assets/rtw-vehicle.png",
+          "height": 100,
+          "aspectRatio": 2.211377245508982
+        },
+        "patientCapacity": 1,
+        "personnel": ["notSan", "rettSan"],
+        "materials": ["standard"]
+      },
+      {
+        "id": "6e795f2f-e23f-434d-a7e1-612605ae7dee",
+        "type": "vehicleTemplate",
+        "vehicleType": "KTW",
+        "name": "KTW ???",
+        "image": {
+          "url": "/assets/ktw-vehicle.png",
+          "height": 100,
+          "aspectRatio": 2.0470588235294116
+        },
+        "patientCapacity": 1,
+        "personnel": ["san", "rettSan"],
+        "materials": ["standard"]
+      },
+      {
+        "id": "cea635fa-6dc2-4ba8-b2e2-f2523e5727b6",
+        "type": "vehicleTemplate",
+        "vehicleType": "KTW (KatSchutz)",
+        "name": "KTW (KatSchutz) ???",
+        "image": {
+          "url": "/assets/ktw-vehicle.png",
+          "height": 100,
+          "aspectRatio": 2.0470588235294116
+        },
+        "patientCapacity": 2,
+        "personnel": ["san", "rettSan"],
+        "materials": ["standard"]
+      },
+      {
+        "id": "e07328b0-50d0-4c59-ae16-133ebfbe338b",
+        "type": "vehicleTemplate",
+        "vehicleType": "GW-San",
+        "name": "GW-San ???",
+        "image": {
+          "url": "/assets/gwSan-vehicle.png",
+          "height": 120,
+          "aspectRatio": 2.021018593371059
+        },
+        "patientCapacity": 0,
+        "personnel": ["gf", "rettSan", "rettSan", "san", "san", "notarzt"],
+        "materials": ["big", "big", "big", "big"]
+      },
+      {
+        "id": "ff5225c8-027e-4f7e-a2ed-84fe099f68de",
+        "type": "vehicleTemplate",
+        "vehicleType": "NEF",
+        "name": "NEF ???",
+        "image": {
+          "url": "/assets/nef-vehicle.png",
+          "height": 70,
+          "aspectRatio": 2.4120194910665944
+        },
+        "patientCapacity": 0,
+        "personnel": ["notarzt", "notSan"],
+        "materials": ["standard"]
+      },
+      {
+        "id": "33f9034b-602e-49c4-8274-e818c56c35c7",
+        "type": "vehicleTemplate",
+        "vehicleType": "Tragetrupp",
+        "name": "Tragetrupp ???",
+        "image": {
+          "url": "/assets/carrying-unit.svg",
+          "height": 210,
+          "aspectRatio": 1
+        },
+        "patientCapacity": 1,
+        "personnel": [],
+        "materials": []
+      },
+      {
+        "id": "147ac39c-c323-47be-a148-38f23053d1f4",
+        "type": "vehicleTemplate",
+        "vehicleType": "RTH",
+        "name": "RTH ???",
+        "image": {
+          "url": "/assets/rth-vehicle.svg",
+          "height": 300,
+          "aspectRatio": 2.3846153846153846
+        },
+        "patientCapacity": 1,
+        "personnel": ["notarzt", "notSan"],
+        "materials": ["standard"]
+      }
+    ],
+    "materialTemplates": {
+      "standard": {
+        "type": "materialTemplate",
+        "materialType": "standard",
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 0,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "big": {
+        "type": "materialTemplate",
+        "materialType": "big",
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      }
+    },
+    "personnelTemplates": {
+      "san": {
+        "type": "personnelTemplate",
+        "personnelType": "san",
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 5,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/san-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        }
+      },
+      "rettSan": {
+        "type": "personnelTemplate",
+        "personnelType": "rettSan",
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        }
+      },
+      "notSan": {
+        "type": "personnelTemplate",
+        "personnelType": "notSan",
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 1,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/notSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        }
+      },
+      "notarzt": {
+        "type": "personnelTemplate",
+        "personnelType": "notarzt",
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 2,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 15,
+        "image": {
+          "url": "/assets/notarzt-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        }
+      },
+      "gf": {
+        "type": "personnelTemplate",
+        "personnelType": "gf",
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 0,
+        "treatmentRange": 0,
+        "image": {
+          "url": "/assets/gf-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        }
+      }
+    },
+    "mapImageTemplates": [
+      {
+        "id": "599292f6-16ad-4b6e-ab1e-43bfbfcad74b",
+        "type": "mapImageTemplate",
+        "name": "Feuer",
+        "image": {
+          "url": "/assets/fire.svg",
+          "height": 427,
+          "aspectRatio": 0.7330210772833724
+        }
+      },
+      {
+        "id": "85326aa1-b3b8-4c16-9e3f-63c7c1a167fe",
+        "type": "mapImageTemplate",
+        "name": "Brennendes Haus",
+        "image": {
+          "url": "/assets/house-fire.svg",
+          "height": 623,
+          "aspectRatio": 0.6308186195826645
+        }
+      }
+    ],
+    "eocLog": [
+      {
+        "id": "6e32be89-5ed9-4a44-8301-688eb5b2caca",
+        "type": "eocLogEntry",
+        "exerciseTimestamp": 0,
+        "message": "Übung wurde gestartet. (17.4.2023, 14:19)",
+        "clientName": ""
+      },
+      {
+        "id": "a0c00d2b-9242-43be-b1f4-d88a2a44b857",
+        "type": "eocLogEntry",
+        "exerciseTimestamp": 209000,
+        "message": "Übung wurde pausiert. (17.4.2023, 14:22)",
+        "clientName": ""
+      }
+    ],
+    "participantId": "077221",
+    "spatialTrees": {
+      "materials": {
+        "spatialTreeAsJSON": {
+          "children": [],
+          "height": 1,
+          "leaf": true,
+          "minX": null,
+          "minY": null,
+          "maxX": null,
+          "maxY": null
+        }
+      },
+      "patients": {
+        "spatialTreeAsJSON": {
+          "children": [],
+          "height": 1,
+          "leaf": true,
+          "minX": null,
+          "minY": null,
+          "maxX": null,
+          "maxY": null
+        }
+      },
+      "personnel": {
+        "spatialTreeAsJSON": {
+          "children": [],
+          "height": 1,
+          "leaf": true,
+          "minX": null,
+          "minY": null,
+          "maxX": null,
+          "maxY": null
+        }
+      }
+    },
+    "configuration": {
+      "type": "exerciseConfiguration",
+      "pretriageEnabled": true,
+      "bluePatientsEnabled": false,
+      "tileMapProperties": {
+        "tileUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+        "maxZoom": 20
+      }
+    }
+  }
+}

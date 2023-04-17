@@ -1,0 +1,2287 @@
+{
+  "fileVersion": 1,
+  "dataVersion": 25,
+  "type": "complete",
+  "currentState": {
+    "id": "b476be16-116b-4efd-ac76-f856f8df70ab",
+    "currentTime": 0,
+    "currentStatus": "notStarted",
+    "randomState": {
+      "type": "randomState",
+      "algo": "sha256-id-ctr",
+      "counter": 0
+    },
+    "viewports": {},
+    "simulatedRegions": {
+      "451880ac-647a-49a9-956e-4bebea2619d2": {
+        "id": "451880ac-647a-49a9-956e-4bebea2619d2",
+        "type": "simulatedRegion",
+        "position": {
+          "type": "coordinates",
+          "coordinates": { "x": 1461627.5854525617, "y": 6871542.8488600245 }
+        },
+        "size": { "width": 136.17021276595744, "height": 76.59574468085107 },
+        "name": "Einsatzabschnitt ???",
+        "inEvents": [],
+        "behaviors": [
+          {
+            "type": "automaticallyDistributeVehiclesBehavior",
+            "id": "a97490a6-602f-4e20-bb83-19c32eb1f9b6",
+            "distributionDestinations": {},
+            "distributionLimits": {},
+            "distributedRounds": {},
+            "distributedLastRound": {},
+            "remainingInNeed": {},
+            "distributionDelay": 60000
+          }
+        ],
+        "activities": {}
+      }
+    },
+    "vehicles": {},
+    "personnel": {},
+    "patients": {},
+    "materials": {},
+    "mapImages": {},
+    "transferPoints": {
+      "05961261-c339-4184-af9d-7fc1d6cba5a2": {
+        "id": "05961261-c339-4184-af9d-7fc1d6cba5a2",
+        "type": "transferPoint",
+        "position": {
+          "type": "simulatedRegion",
+          "simulatedRegionId": "451880ac-647a-49a9-956e-4bebea2619d2"
+        },
+        "reachableTransferPoints": {},
+        "reachableHospitals": {},
+        "internalName": "",
+        "externalName": "[Simuliert] Einsatzabschnitt ???"
+      }
+    },
+    "hospitals": {},
+    "hospitalPatients": {},
+    "alarmGroups": {},
+    "clients": {
+      "9fe53b09-c45e-41f9-8f5e-d3c3a03d45aa": {
+        "id": "9fe53b09-c45e-41f9-8f5e-d3c3a03d45aa",
+        "type": "client",
+        "name": "",
+        "role": "trainer",
+        "isInWaitingRoom": false
+      }
+    },
+    "radiograms": {},
+    "patientCategories": [
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "X", "behaviourCode": "A" },
+          "secondField": { "colorCode": "X", "behaviourCode": "A" },
+          "thirdField": { "colorCode": "X", "behaviourCode": "A" },
+          "tags": ["P"]
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "5a366d66-869c-4a24-a5bf-5face82d668e",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "blaue Augen, rothaarig, 1,69 m",
+              "age": 16
+            },
+            "pretriageInformation": {
+              "injuries": "Prellmarke an der Stirn; blutende Wunde am linken Unterarm",
+              "bodyCheck": "leichte Schmerzen beim Auftreten im rechten Sprunggelenk; Schwanger; sonst o.B.",
+              "breathing": "unauffällig",
+              "awareness": "leicht verwirrt",
+              "pulse": "79; gut tastbar",
+              "skin": "unauffällig",
+              "pain": "leichte",
+              "pupils": "isocor",
+              "psyche": "ängstlich",
+              "hearing": "unauffällig",
+              "isWalkable": true
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              }
+            },
+            "startingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+            "health": 100000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "X", "behaviourCode": "A" },
+          "secondField": { "colorCode": "X", "behaviourCode": "A" },
+          "thirdField": { "colorCode": "X", "behaviourCode": "D" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "359b27de-c64e-4f11-9ea9-22ccfe0728fb",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "braune Haare, braune Augen, 1,72 m",
+              "age": 35
+            },
+            "pretriageInformation": {
+              "injuries": "keine äußeren Verletzungen sichtbar",
+              "bodyCheck": "Pat. ist teilnahmslos; keine Kooperation bei der Untersuchung",
+              "breathing": "unauffällig",
+              "awareness": "verwirrt",
+              "pulse": "82; Puls gut tastbar",
+              "skin": "unauffällig",
+              "pain": "keine",
+              "pupils": "isocor",
+              "psyche": "teilnahmslos",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "74d389b6-06fc-4d74-bbd5-9533305b9c4d": {
+                "id": "74d389b6-06fc-4d74-bbd5-9533305b9c4d",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -6.944444444444445,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 50000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "74d389b6-06fc-4d74-bbd5-9533305b9c4d",
+            "health": 100000
+          },
+          {
+            "id": "da6003e4-2491-4b03-aea8-79299eb3aaf4",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "male",
+              "externalFeatures": "1,89 m, Vollbart, blond, blauäugig",
+              "age": 25
+            },
+            "pretriageInformation": {
+              "injuries": "keine äußeren Verletzungen zu sehen",
+              "bodyCheck": "Pat. ist nahezu hysterisch; es besteht keine Kooperation bei Untersuchung",
+              "breathing": "unauffällig",
+              "awareness": "wach aber verwirrt",
+              "pulse": "94",
+              "skin": "unauffällig",
+              "pain": "keine",
+              "pupils": "isocor",
+              "psyche": "hysterisch",
+              "hearing": "schwerhörig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "4f28451e-319c-48b9-a23f-497ca0b8b47d": {
+                "id": "4f28451e-319c-48b9-a23f-497ca0b8b47d",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -6.313131313131313,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 50000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "4f28451e-319c-48b9-a23f-497ca0b8b47d",
+            "health": 100000
+          },
+          {
+            "id": "d2cb739e-8bf6-4b69-a24a-207bcf3dd056",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "1,76m, hellblond, blaue Augen, Brille",
+              "age": 35
+            },
+            "pretriageInformation": {
+              "injuries": "äußerlich keine Verletzungen",
+              "bodyCheck": "keine Kooperation bei Untersuchung; Pat. hysterisch und verwirrt",
+              "breathing": "unauffällig",
+              "awareness": "wach, verwirrt",
+              "pulse": "95",
+              "skin": "unauffällig",
+              "pain": "keine",
+              "pupils": "isocor",
+              "psyche": "hysterisch",
+              "hearing": "schwerhörig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "2e6cb369-5c61-421d-afbc-6c0a1af9acd8": {
+                "id": "2e6cb369-5c61-421d-afbc-6c0a1af9acd8",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -5.787037037037037,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 50000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "2e6cb369-5c61-421d-afbc-6c0a1af9acd8",
+            "health": 100000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "X", "behaviourCode": "A" },
+          "secondField": { "colorCode": "X", "behaviourCode": "D" },
+          "thirdField": { "colorCode": "X", "behaviourCode": "A" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "b5ca7402-79d4-42d4-a370-d87bd195eb6a",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "braune Haare, braune Augen, 1,79 m, adipös",
+              "age": 50
+            },
+            "pretriageInformation": {
+              "injuries": "leichte Augenverletzung rechts",
+              "bodyCheck": "Pat. wirkt apathisch; keine Kooperation bei Untersuchung; Prellung Unterschenkel rechts; starke Schmerzen nur beim Auftreten",
+              "breathing": "unauffällig",
+              "awareness": "wach, verwirrt",
+              "pulse": "83; Puls flach",
+              "skin": "unauffällig",
+              "pain": "stark, aber nur beim Auftreten",
+              "pupils": "isocor",
+              "psyche": "teilnahmslos",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "91f62fa7-5cc8-48d9-afe3-8ea056438fe9": {
+                "id": "91f62fa7-5cc8-48d9-afe3-8ea056438fe9",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -9.920634920634921,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "da045d89-7532-4d5e-a328-a65504e437bb",
+                    "maximumHealth": 50000
+                  }
+                ]
+              },
+              "da045d89-7532-4d5e-a328-a65504e437bb": {
+                "id": "da045d89-7532-4d5e-a328-a65504e437bb",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "58599bfa-add6-4dc9-9e65-b5cf3f8629b3",
+                    "earliestTime": 720000
+                  }
+                ]
+              },
+              "58599bfa-add6-4dc9-9e65-b5cf3f8629b3": {
+                "id": "58599bfa-add6-4dc9-9e65-b5cf3f8629b3",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 48.611111111111114,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "minimumHealth": 85000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "91f62fa7-5cc8-48d9-afe3-8ea056438fe9",
+            "health": 100000
+          },
+          {
+            "id": "cb066da1-2cf0-46c3-b9e7-6f956e70938a",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "1,59 m, blaue Augen, graue Haare",
+              "age": 65
+            },
+            "pretriageInformation": {
+              "injuries": "äußerlich keine Verletzungen",
+              "bodyCheck": "leichter Druckschmerzen im linkes Bein",
+              "breathing": "unauffällig",
+              "awareness": "wach, verwirrt",
+              "pulse": "89",
+              "skin": "unauffällig",
+              "pain": "keine",
+              "pupils": "isocor",
+              "psyche": "aufgeregt",
+              "hearing": "unauffällig",
+              "isWalkable": true
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "c01c0eaa-b79d-44f3-927c-b3f4666ae97c": {
+                "id": "c01c0eaa-b79d-44f3-927c-b3f4666ae97c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -8.680555555555555,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "da045d89-7532-4d5e-a328-a65504e437bb",
+                    "maximumHealth": 50000
+                  }
+                ]
+              },
+              "da045d89-7532-4d5e-a328-a65504e437bb": {
+                "id": "da045d89-7532-4d5e-a328-a65504e437bb",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "58599bfa-add6-4dc9-9e65-b5cf3f8629b3",
+                    "earliestTime": 720000
+                  }
+                ]
+              },
+              "58599bfa-add6-4dc9-9e65-b5cf3f8629b3": {
+                "id": "58599bfa-add6-4dc9-9e65-b5cf3f8629b3",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 48.611111111111114,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "minimumHealth": 85000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "c01c0eaa-b79d-44f3-927c-b3f4666ae97c",
+            "health": 100000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "X", "behaviourCode": "D" },
+          "secondField": { "colorCode": "X", "behaviourCode": "D" },
+          "thirdField": { "colorCode": "X", "behaviourCode": "A" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "ce8f88c6-ba53-4d7a-924d-4808b7a266d7",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "male",
+              "externalFeatures": "Spitzbart, blaue Augen, blonde Haare, 182 cm",
+              "age": 52
+            },
+            "pretriageInformation": {
+              "injuries": "leicht blutende Wunde an der linken Hand, evt. Glassplitter in der Tiefe sichtbar; Prellmarke rechte Schläfe",
+              "bodyCheck": "leichte Schmerzen beim Auftreten im linken Fuß",
+              "breathing": "unauffällig",
+              "awareness": "wach, verwirrt",
+              "pulse": "85; Puls gut tastbar",
+              "skin": "unauffällig",
+              "pain": "leichte",
+              "pupils": "isocor",
+              "psyche": "aufgeregt",
+              "hearing": "unauffällig",
+              "isWalkable": true
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "4045f2ab-56ac-407f-9ee7-bfa31db140f8": {
+                "id": "4045f2ab-56ac-407f-9ee7-bfa31db140f8",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -34.72222222222222,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "db140b1a-25d6-49a6-9222-adfb7e6e774d",
+                    "maximumHealth": 50000
+                  }
+                ]
+              },
+              "db140b1a-25d6-49a6-9222-adfb7e6e774d": {
+                "id": "db140b1a-25d6-49a6-9222-adfb7e6e774d",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "d8584878-a94a-48b3-976f-0bf43b5a9ab9",
+                    "earliestTime": 1440000
+                  }
+                ]
+              },
+              "d8584878-a94a-48b3-976f-0bf43b5a9ab9": {
+                "id": "d8584878-a94a-48b3-976f-0bf43b5a9ab9",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 16.203703703703702,
+                  "notarztModifier": 48.611111111111114,
+                  "notSanModifier": 48.611111111111114,
+                  "rettSanModifier": 48.611111111111114
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "minimumHealth": 85000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "4045f2ab-56ac-407f-9ee7-bfa31db140f8",
+            "health": 100000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "X", "behaviourCode": "A" },
+          "secondField": { "colorCode": "X", "behaviourCode": "A" },
+          "thirdField": { "colorCode": "Y", "behaviourCode": "B" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "b9ae9ecf-ea84-4f0b-8bd1-0ce2bdd100bb",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "1,66 m, blond, blaue Augen",
+              "age": 30
+            },
+            "pretriageInformation": {
+              "injuries": "Zeigefingeramputation rechts",
+              "bodyCheck": "dezenter Druckschmerzen im rechten Bein",
+              "breathing": "unauffällig",
+              "awareness": "wach, verwirrt",
+              "pulse": "98; rhythmisch",
+              "skin": "unauffällig",
+              "pain": "keine",
+              "pupils": "isocor",
+              "psyche": "ängstlich",
+              "hearing": "unauffällig",
+              "isWalkable": true
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "10ce587f-29a4-4a70-af7f-fd1d587c32e7": {
+                "id": "10ce587f-29a4-4a70-af7f-fd1d587c32e7",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -7.716049382716049,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "21b9b571-9d36-4656-bf37-dbedd4bee262",
+                    "maximumHealth": 50000
+                  }
+                ]
+              },
+              "21b9b571-9d36-4656-bf37-dbedd4bee262": {
+                "id": "21b9b571-9d36-4656-bf37-dbedd4bee262",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -41.666666666666664,
+                  "notarztModifier": 90.27777777777777,
+                  "notSanModifier": 41.666666666666664,
+                  "rettSanModifier": 41.666666666666664
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "b6063c7a-5127-4a89-a6a0-2ed597d51b4e",
+                    "earliestTime": 720000
+                  }
+                ]
+              },
+              "b6063c7a-5127-4a89-a6a0-2ed597d51b4e": {
+                "id": "b6063c7a-5127-4a89-a6a0-2ed597d51b4e",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -41.666666666666664,
+                  "notarztModifier": 69.44444444444444,
+                  "notSanModifier": 69.44444444444444,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "minimumHealth": 100000
+                  },
+                  {
+                    "matchingHealthStateId": "76b93173-db81-4ae1-931c-7f4f6ff4f66a",
+                    "earliestTime": 720000
+                  }
+                ]
+              },
+              "76b93173-db81-4ae1-931c-7f4f6ff4f66a": {
+                "id": "76b93173-db81-4ae1-931c-7f4f6ff4f66a",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -69.44444444444444,
+                  "notarztModifier": 93.05555555555556,
+                  "notSanModifier": 93.05555555555556,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "minimumHealth": 85000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "10ce587f-29a4-4a70-af7f-fd1d587c32e7",
+            "health": 100000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "X", "behaviourCode": "D" },
+          "secondField": { "colorCode": "Z", "behaviourCode": "B" },
+          "thirdField": { "colorCode": "Z", "behaviourCode": "C" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "acdf56e9-35ce-4ddf-9387-e24039a1633f",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "graue Haare, blaue Augen, 1,69 m, Brille",
+              "age": 76
+            },
+            "pretriageInformation": {
+              "injuries": "keine äußeren Verletzungen",
+              "bodyCheck": "dezenter Druckschmerzen im linken Bein in Höhe der Patella",
+              "breathing": "unauffällig",
+              "awareness": "wach, verwirrt",
+              "pulse": "97; Puls gut tastbar",
+              "skin": "warm, rot",
+              "pain": "keine",
+              "pupils": "isocor",
+              "psyche": "sehr aufgeregt",
+              "hearing": "unauffällig",
+              "isWalkable": true
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "82ef3222-6122-4bbf-86f7-bb2b1a448169": {
+                "id": "82ef3222-6122-4bbf-86f7-bb2b1a448169",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -17.36111111111111,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "8829e1fb-e093-4345-9606-210d898c675b",
+                    "maximumHealth": 50000
+                  }
+                ]
+              },
+              "8829e1fb-e093-4345-9606-210d898c675b": {
+                "id": "8829e1fb-e093-4345-9606-210d898c675b",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -41.666666666666664,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "16bdfec7-919b-457e-9d4e-33e75757b35c",
+                    "maximumHealth": 20000
+                  }
+                ]
+              },
+              "16bdfec7-919b-457e-9d4e-33e75757b35c": {
+                "id": "16bdfec7-919b-457e-9d4e-33e75757b35c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -27.77777777777778,
+                  "notarztModifier": 27.77777777777778,
+                  "notSanModifier": 27.77777777777778,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  },
+                  {
+                    "matchingHealthStateId": "24643314-ea63-487f-a22b-d3af0c0229c5",
+                    "earliestTime": 2880000
+                  }
+                ]
+              },
+              "24643314-ea63-487f-a22b-d3af0c0229c5": {
+                "id": "24643314-ea63-487f-a22b-d3af0c0229c5",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -13.88888888888889,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "82ef3222-6122-4bbf-86f7-bb2b1a448169",
+            "health": 100000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "Y", "behaviourCode": "A" },
+          "secondField": { "colorCode": "X", "behaviourCode": "A" },
+          "thirdField": { "colorCode": "X", "behaviourCode": "A" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "1e79b172-7ef5-44f5-a563-6728a120956e",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "male",
+              "externalFeatures": "dunkle Haare, braune Augen, Muttermal Stirn, 165 cm",
+              "age": 14
+            },
+            "pretriageInformation": {
+              "injuries": "Kunststofffremdkörper linker Oberarm; Schulterfraktur links; Luxationsfraktur rechtes Handgelenk",
+              "bodyCheck": "Risswunde am Hinterkopf; Hüftprellung rechts",
+              "breathing": "unauffällig",
+              "awareness": "wach, orientiert",
+              "pulse": "124; Puls kräftig",
+              "skin": "unauffällig",
+              "pain": "starke",
+              "pupils": "isocor",
+              "psyche": "aufgeregt",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "47375168-f43e-42e5-bab2-6d8870ef56f7": {
+                "id": "47375168-f43e-42e5-bab2-6d8870ef56f7",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 4.444444444444445,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "minimumHealth": 85000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "47375168-f43e-42e5-bab2-6d8870ef56f7",
+            "health": 50000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "Y", "behaviourCode": "B" },
+          "secondField": { "colorCode": "X", "behaviourCode": "A" },
+          "thirdField": { "colorCode": "X", "behaviourCode": "A" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "998a3d29-0331-41d2-a197-089b5b3b5e98",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "male",
+              "externalFeatures": "blaue Augen, weiße Haare, 174 cm",
+              "age": 72
+            },
+            "pretriageInformation": {
+              "injuries": "Fehlstellung linker Oberarm; offene Fraktur Unterarm links; große Platzwunde Kopf; Handquetschung links; Dialysepatient",
+              "bodyCheck": "Schlüsselbeinfraktur rechts; Thoraxprellung auf der gleichen Seite",
+              "breathing": "unauffällig",
+              "awareness": "wach und orientiert",
+              "pulse": "122; Puls kräftig",
+              "skin": "unauffällig",
+              "pain": "starke",
+              "pupils": "isocor",
+              "psyche": "aufgeregt",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "c6e7aa76-9804-410e-91e7-f703161da03c": {
+                "id": "c6e7aa76-9804-410e-91e7-f703161da03c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "61e37a76-96b6-4ba3-8d50-13053116eb8a",
+                    "earliestTime": 2880000
+                  }
+                ]
+              },
+              "61e37a76-96b6-4ba3-8d50-13053116eb8a": {
+                "id": "61e37a76-96b6-4ba3-8d50-13053116eb8a",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 22.22222222222222,
+                  "notSanModifier": 22.22222222222222,
+                  "rettSanModifier": 22.22222222222222
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "minimumHealth": 85000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "c6e7aa76-9804-410e-91e7-f703161da03c",
+            "health": 50000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "Y", "behaviourCode": "B" },
+          "secondField": { "colorCode": "Y", "behaviourCode": "A" },
+          "thirdField": { "colorCode": "Y", "behaviourCode": "A" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "9ab3fae7-8381-4c78-8019-211de19d5bae",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "male",
+              "externalFeatures": "Vollbart, blond, blaue Augen, 1,87 m",
+              "age": 55
+            },
+            "pretriageInformation": {
+              "injuries": "Prellmarke Unterschenkel rechts; Fehlstellung rechtes Sprunggelenk; Wunde Unterarm rechts",
+              "bodyCheck": "Druckschmerz rechte Hüfte; Prellung Unterschenkel links",
+              "breathing": "unauffällig",
+              "awareness": "wach, verwirrt",
+              "pulse": "123; Puls flach",
+              "skin": "kaltschweißig",
+              "pain": "starke",
+              "pupils": "isocor",
+              "psyche": "aufgeregt",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "5b407027-78c0-419b-be83-25cc3bffa3fa": {
+                "id": "5b407027-78c0-419b-be83-25cc3bffa3fa",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "f1d0fe53-20e3-4d2b-84d5-b874bc81bd84",
+                    "earliestTime": 2880000
+                  }
+                ]
+              },
+              "f1d0fe53-20e3-4d2b-84d5-b874bc81bd84": {
+                "id": "f1d0fe53-20e3-4d2b-84d5-b874bc81bd84",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -41.666666666666664,
+                  "notarztModifier": 41.666666666666664,
+                  "notSanModifier": 41.666666666666664,
+                  "rettSanModifier": 41.666666666666664
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 33000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "5b407027-78c0-419b-be83-25cc3bffa3fa",
+            "health": 50000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "Y", "behaviourCode": "A" },
+          "secondField": { "colorCode": "Y", "behaviourCode": "B" },
+          "thirdField": { "colorCode": "Y", "behaviourCode": "A" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "1e8fdf2d-b8c3-4878-9d3e-5c7bdf7d4779",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "male",
+              "externalFeatures": "Glatze, graublaue Augen, Brille, 174 cm",
+              "age": 57
+            },
+            "pretriageInformation": {
+              "injuries": "leicht blutende Wunde Unterarm links; grobe Fehlstellung rechtes Sprunggelenk; Prellmarke Unterschenkel rechts",
+              "bodyCheck": "Druckschmerz linke Hüfte; Prellung Unterschenkel links; Schmerzen im Genitalbereich",
+              "breathing": "unauffällig",
+              "awareness": "wach aber verwirrt",
+              "pulse": "122; Puls kräftig",
+              "skin": "kaltschweißig",
+              "pain": "starke",
+              "pupils": "isocor",
+              "psyche": "hysterisch",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              }
+            },
+            "startingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+            "health": 50000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "Y", "behaviourCode": "D" },
+          "secondField": { "colorCode": "Y", "behaviourCode": "B" },
+          "thirdField": { "colorCode": "Y", "behaviourCode": "B" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "5c4b5e96-c149-4578-b740-7184ba4693e0",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "graue Haare, Brille, braune Augen, ca. 1,70 m",
+              "age": 71
+            },
+            "pretriageInformation": {
+              "injuries": "rechte Hand stark schmerzhaft; kleine blutende Platzwunde am Kopf; Glasfremdkörper am ganzen rechten Arm; unstillbares Nasenbluten",
+              "bodyCheck": "Thoraxprellung links; Schlüsselbeinfraktur links",
+              "breathing": "unauffällig",
+              "awareness": "wach, verwirrt",
+              "pulse": "132; Puls kräftig",
+              "skin": "kühl, blass",
+              "pain": "starke",
+              "pupils": "isocor",
+              "psyche": "aggressiv",
+              "hearing": "unauffällig",
+              "isWalkable": true
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "1cab49ff-c7b1-4c54-b21b-2436dc592ba1": {
+                "id": "1cab49ff-c7b1-4c54-b21b-2436dc592ba1",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -13.88888888888889,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "9ae61835-95d3-4212-97d9-176d28d033a3",
+                    "maximumHealth": 20000
+                  }
+                ]
+              },
+              "9ae61835-95d3-4212-97d9-176d28d033a3": {
+                "id": "9ae61835-95d3-4212-97d9-176d28d033a3",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 20.833333333333332,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "6a54a4ff-73a2-4df3-a3ee-f27452dcdcb5",
+                    "minimumHealth": 50000
+                  }
+                ]
+              },
+              "6a54a4ff-73a2-4df3-a3ee-f27452dcdcb5": {
+                "id": "6a54a4ff-73a2-4df3-a3ee-f27452dcdcb5",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "a1bf1f8e-449f-4931-818e-1d47241e87b8",
+                    "earliestTime": 2160000
+                  }
+                ]
+              },
+              "a1bf1f8e-449f-4931-818e-1d47241e87b8": {
+                "id": "a1bf1f8e-449f-4931-818e-1d47241e87b8",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -41.666666666666664,
+                  "notarztModifier": 41.666666666666664,
+                  "notSanModifier": 41.666666666666664,
+                  "rettSanModifier": 41.666666666666664
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "1a3880ab-bd50-409b-9444-d8cfaf032254",
+                    "earliestTime": 720000
+                  }
+                ]
+              },
+              "1a3880ab-bd50-409b-9444-d8cfaf032254": {
+                "id": "1a3880ab-bd50-409b-9444-d8cfaf032254",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -41.666666666666664,
+                  "notarztModifier": 41.666666666666664,
+                  "notSanModifier": 41.666666666666664,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "2dab379b-ba2e-4ea4-9819-3b47712aa655",
+                    "earliestTime": 720000
+                  }
+                ]
+              },
+              "2dab379b-ba2e-4ea4-9819-3b47712aa655": {
+                "id": "2dab379b-ba2e-4ea4-9819-3b47712aa655",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -69.44444444444444,
+                  "notarztModifier": 69.44444444444444,
+                  "notSanModifier": 69.44444444444444,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "minimumHealth": 50000
+                  },
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "1cab49ff-c7b1-4c54-b21b-2436dc592ba1",
+            "health": 50000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "Y", "behaviourCode": "C" },
+          "secondField": { "colorCode": "Z", "behaviourCode": "C" },
+          "thirdField": { "colorCode": "V", "behaviourCode": "E" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "59d16ed9-e8ba-43ab-ac53-d72dd96cbdba",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "grüne Augen, grauhaarig, 1,68 m, adipös, Brille",
+              "age": 51
+            },
+            "pretriageInformation": {
+              "injuries": "starke Schmerzen am linken Sprunggelenk; Prellmarke und Schürfwunde linker Unterschenkel",
+              "bodyCheck": "Beckenprellung, Fraktur nicht auszuschließen",
+              "breathing": "unauffällig",
+              "awareness": "wach, verwirrt",
+              "pulse": "97; Puls gut tastbar",
+              "skin": "kaltschweißig",
+              "pain": "stärkste",
+              "pupils": "isocor",
+              "psyche": "hysterisch",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "bedfdca6-2883-4c5f-96e9-75d1a7919699": {
+                "id": "bedfdca6-2883-4c5f-96e9-75d1a7919699",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -10.416666666666666,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "8fb241d1-6c5c-4406-9d7c-7e97b196084b",
+                    "maximumHealth": 20000
+                  }
+                ]
+              },
+              "8fb241d1-6c5c-4406-9d7c-7e97b196084b": {
+                "id": "8fb241d1-6c5c-4406-9d7c-7e97b196084b",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -13.88888888888889,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "bedfdca6-2883-4c5f-96e9-75d1a7919699",
+            "health": 50000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "Z", "behaviourCode": "B" },
+          "secondField": { "colorCode": "Z", "behaviourCode": "A" },
+          "thirdField": { "colorCode": "Z", "behaviourCode": "A" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "3be84176-abb0-4f3a-9f0f-dd1f8cb2dc7b",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "male",
+              "externalFeatures": "1,86 m, Glatze, braune Augen, Brille",
+              "age": 60
+            },
+            "pretriageInformation": {
+              "injuries": "Prellmarken linker Thorax; offene Oberarmfraktur rechts",
+              "bodyCheck": "Rippenserienfraktur li.; Beckenprellung rechts; Hämatom hinter dem rechten Ohr; einseitig hebender Thorax rechts",
+              "breathing": "flache Schonatmung",
+              "awareness": "somnolent",
+              "pulse": "134; Puls fadenförmig",
+              "skin": "zyanotisch",
+              "pain": "stärkste",
+              "pupils": "isocor",
+              "psyche": "teilnahmslos",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "d154beab-0a4c-45b6-83ab-1c2233af84bd": {
+                "id": "d154beab-0a4c-45b6-83ab-1c2233af84bd",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -13.88888888888889,
+                  "notarztModifier": 13.88888888888889,
+                  "notSanModifier": 13.88888888888889,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  },
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "earliestTime": 2160000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "d154beab-0a4c-45b6-83ab-1c2233af84bd",
+            "health": 20000
+          },
+          {
+            "id": "3b1880e4-ab5e-4824-9ade-2077e2c7fa77",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "male",
+              "externalFeatures": "1,84 m, braune Augen, Brille, braune Haare",
+              "age": 15
+            },
+            "pretriageInformation": {
+              "injuries": "Weichteilquetschung rechter Unterschenkel, mäßig blutend, aber schon deutlicher Blutverlust",
+              "bodyCheck": "Oberschenkelfraktur rechts; kleiner Eisenfremdkörper in der linken Hand",
+              "breathing": "flache Atmung",
+              "awareness": "somnolent",
+              "pulse": "154; Puls fadenförmig",
+              "skin": "grau marmoriert",
+              "pain": "stärkste",
+              "pupils": "isocor",
+              "psyche": "teilnahmslos",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "d154beab-0a4c-45b6-83ab-1c2233af84bd": {
+                "id": "d154beab-0a4c-45b6-83ab-1c2233af84bd",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -13.88888888888889,
+                  "notarztModifier": 13.88888888888889,
+                  "notSanModifier": 13.88888888888889,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  },
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "earliestTime": 2160000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "d154beab-0a4c-45b6-83ab-1c2233af84bd",
+            "health": 20000
+          },
+          {
+            "id": "0d1f5e77-4dcc-4919-87d4-2b023bbc3f84",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "1,75 m, blonde Haare, blaue Augen, Brille, extrem adipös",
+              "age": 50
+            },
+            "pretriageInformation": {
+              "injuries": "Kopfplatzwunde über dem Ohr; Prellmarke Stirn; Gesicht blutverschmiert",
+              "bodyCheck": "Unterarmfraktur rechts",
+              "breathing": "Atemwegsverlegung",
+              "awareness": "bewusstlos, Massenbewegungen auf Schmerz",
+              "pulse": "85; gut tastbar",
+              "skin": "tief zyanotisch",
+              "pain": "entfällt",
+              "pupils": "rechts weit",
+              "psyche": "entfällt",
+              "hearing": "entfällt",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "d154beab-0a4c-45b6-83ab-1c2233af84bd": {
+                "id": "d154beab-0a4c-45b6-83ab-1c2233af84bd",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -13.88888888888889,
+                  "notarztModifier": 13.88888888888889,
+                  "notSanModifier": 13.88888888888889,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  },
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "earliestTime": 2160000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "d154beab-0a4c-45b6-83ab-1c2233af84bd",
+            "health": 20000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "Z", "behaviourCode": "B" },
+          "secondField": { "colorCode": "Z", "behaviourCode": "A" },
+          "thirdField": { "colorCode": "Z", "behaviourCode": "A" },
+          "tags": ["P"]
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "f73010bc-10a2-4db9-a2e5-edc8e21b25a4",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "1,72 m, braune Augen, blonde Haare",
+              "age": 25
+            },
+            "pretriageInformation": {
+              "injuries": "offene Fraktur rechter Unterschenkel, nur noch mäßig blutend, aber schon großer Blutverlust; Wunde linke Schläfe; schwanger ca. 36 SSW",
+              "bodyCheck": "schulternahe Oberarmfraktur rechts; linke Hand mit Fehlstellung im Handgelenk",
+              "breathing": "flache Atmung",
+              "awareness": "somnolent",
+              "pulse": "150; Puls fadenförmig",
+              "skin": "grau marmoriert",
+              "pain": "stärkste",
+              "pupils": "isocor",
+              "psyche": "teilnahmslos",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "d154beab-0a4c-45b6-83ab-1c2233af84bd": {
+                "id": "d154beab-0a4c-45b6-83ab-1c2233af84bd",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -13.88888888888889,
+                  "notarztModifier": 13.88888888888889,
+                  "notSanModifier": 13.88888888888889,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  },
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "earliestTime": 2160000
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "d154beab-0a4c-45b6-83ab-1c2233af84bd",
+            "health": 20000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "Z", "behaviourCode": "B" },
+          "secondField": { "colorCode": "Z", "behaviourCode": "C" },
+          "thirdField": { "colorCode": "V", "behaviourCode": "E" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "accc504a-f24b-41b7-ad98-29167a4fee0e",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "graue Haare, Brille, grüne Augen, ca. 1,60 m",
+              "age": 80
+            },
+            "pretriageInformation": {
+              "injuries": "große Weichteilquetschung linker Unterschenkel, nur noch mäßig blutend; aber schon deutlicher Blutverlust",
+              "bodyCheck": "Oberarmfraktur rechts; fraglicher Fremdkörper rechte Hand in Wunde; blutende Prellmarke am Hinterkopf",
+              "breathing": "flache Atmung",
+              "awareness": "somnolent",
+              "pulse": "132; fadenförmig",
+              "skin": "grau marmoriert",
+              "pain": "stärkste",
+              "pupils": "isocor",
+              "psyche": "teilnahmslos",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "aa953a65-be0e-4658-98c6-446b47117899": {
+                "id": "aa953a65-be0e-4658-98c6-446b47117899",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -13.88888888888889,
+                  "notarztModifier": 13.88888888888889,
+                  "notSanModifier": 13.88888888888889,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  },
+                  {
+                    "matchingHealthStateId": "245003ab-043a-4e7d-83ff-d1fc4432bb3d",
+                    "earliestTime": 2160000
+                  }
+                ]
+              },
+              "245003ab-043a-4e7d-83ff-d1fc4432bb3d": {
+                "id": "245003ab-043a-4e7d-83ff-d1fc4432bb3d",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "9f0935db-c212-4227-9bed-34175dbc04d9",
+                    "earliestTime": 1440000
+                  }
+                ]
+              },
+              "9f0935db-c212-4227-9bed-34175dbc04d9": {
+                "id": "9f0935db-c212-4227-9bed-34175dbc04d9",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -9.25925925925926,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "aa953a65-be0e-4658-98c6-446b47117899",
+            "health": 20000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "Z", "behaviourCode": "C" },
+          "secondField": { "colorCode": "Z", "behaviourCode": "C" },
+          "thirdField": { "colorCode": "V", "behaviourCode": "E" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "746316ab-3ba8-4321-94d6-eedc44dc0597",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "male",
+              "externalFeatures": "1,78m, Bart, schwarzhaarig, braune Augen",
+              "age": 50
+            },
+            "pretriageInformation": {
+              "injuries": "Teil-Amputation rechter Unterarm, spritzend blutend; schon großer Blutverlust",
+              "bodyCheck": "geschlossene Oberschenkelfraktur links; Metallfremdkörper rechter Unterschenkel",
+              "breathing": "flache Atmung",
+              "awareness": "somnolent",
+              "pulse": "145; fadenförmig",
+              "skin": "grau marmoriert",
+              "pain": "stärkste",
+              "pupils": "isocor",
+              "psyche": "teilnahmslos",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "cff2b3db-9bc5-4cd7-a4ed-9d8b9d6bc8a9": {
+                "id": "cff2b3db-9bc5-4cd7-a4ed-9d8b9d6bc8a9",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -13.88888888888889,
+                  "notarztModifier": 13.88888888888889,
+                  "notSanModifier": 13.88888888888889,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  },
+                  {
+                    "matchingHealthStateId": "9f0935db-c212-4227-9bed-34175dbc04d9",
+                    "earliestTime": 2160000
+                  }
+                ]
+              },
+              "9f0935db-c212-4227-9bed-34175dbc04d9": {
+                "id": "9f0935db-c212-4227-9bed-34175dbc04d9",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -9.25925925925926,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "cff2b3db-9bc5-4cd7-a4ed-9d8b9d6bc8a9",
+            "health": 20000
+          }
+        ]
+      },
+      {
+        "type": "patientCategory",
+        "name": {
+          "firstField": { "colorCode": "Z", "behaviourCode": "C" },
+          "secondField": { "colorCode": "V", "behaviourCode": "E" },
+          "thirdField": { "colorCode": "V", "behaviourCode": "E" },
+          "tags": []
+        },
+        "image": {
+          "url": "/assets/patient.svg",
+          "height": 80,
+          "aspectRatio": 1
+        },
+        "patientTemplates": [
+          {
+            "id": "dec78096-7dc8-468e-b147-a7d7148ab421",
+            "type": "patientTemplate",
+            "biometricInformation": {
+              "sex": "female",
+              "externalFeatures": "1,64 m, blaue Augen, blond",
+              "age": 55
+            },
+            "pretriageInformation": {
+              "injuries": "starke Schmerzen im gesamten Abdomen mit gespannter Bauchdecke",
+              "bodyCheck": "Prellmarken und Wunde linke Flanke; Rippenserienfraktur links",
+              "breathing": "schwere Atemnot 30/min.",
+              "awareness": "wach, verwirrt",
+              "pulse": "114; flach",
+              "skin": "kühl, blass",
+              "pain": "starke Bauchschmerzen",
+              "pupils": "isocor",
+              "psyche": "ängstlich",
+              "hearing": "unauffällig",
+              "isWalkable": false
+            },
+            "image": {
+              "url": "/assets/patient.svg",
+              "height": 80,
+              "aspectRatio": 1
+            },
+            "healthStates": {
+              "291522f2-ca21-485e-a78f-0f732b7a248c": {
+                "id": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": 0,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": []
+              },
+              "9f0935db-c212-4227-9bed-34175dbc04d9": {
+                "id": "9f0935db-c212-4227-9bed-34175dbc04d9",
+                "type": "patientHealthState",
+                "functionParameters": {
+                  "constantChange": -9.25925925925926,
+                  "notarztModifier": 0,
+                  "notSanModifier": 0,
+                  "rettSanModifier": 0
+                },
+                "nextStateConditions": [
+                  {
+                    "matchingHealthStateId": "291522f2-ca21-485e-a78f-0f732b7a248c",
+                    "maximumHealth": 0
+                  }
+                ]
+              }
+            },
+            "startingHealthStateId": "9f0935db-c212-4227-9bed-34175dbc04d9",
+            "health": 20000
+          }
+        ]
+      }
+    ],
+    "vehicleTemplates": [
+      {
+        "id": "d1722c41-8804-44c0-b1da-35948e447eac",
+        "type": "vehicleTemplate",
+        "vehicleType": "RTW",
+        "name": "RTW ???",
+        "image": {
+          "url": "/assets/rtw-vehicle.png",
+          "height": 100,
+          "aspectRatio": 2.211377245508982
+        },
+        "patientCapacity": 1,
+        "personnel": ["notSan", "rettSan"],
+        "materials": ["standard"]
+      },
+      {
+        "id": "6e795f2f-e23f-434d-a7e1-612605ae7dee",
+        "type": "vehicleTemplate",
+        "vehicleType": "KTW",
+        "name": "KTW ???",
+        "image": {
+          "url": "/assets/ktw-vehicle.png",
+          "height": 100,
+          "aspectRatio": 2.0470588235294116
+        },
+        "patientCapacity": 1,
+        "personnel": ["san", "rettSan"],
+        "materials": ["standard"]
+      },
+      {
+        "id": "cea635fa-6dc2-4ba8-b2e2-f2523e5727b6",
+        "type": "vehicleTemplate",
+        "vehicleType": "KTW (KatSchutz)",
+        "name": "KTW (KatSchutz) ???",
+        "image": {
+          "url": "/assets/ktw-vehicle.png",
+          "height": 100,
+          "aspectRatio": 2.0470588235294116
+        },
+        "patientCapacity": 2,
+        "personnel": ["san", "rettSan"],
+        "materials": ["standard"]
+      },
+      {
+        "id": "e07328b0-50d0-4c59-ae16-133ebfbe338b",
+        "type": "vehicleTemplate",
+        "vehicleType": "GW-San",
+        "name": "GW-San ???",
+        "image": {
+          "url": "/assets/gwSan-vehicle.png",
+          "height": 120,
+          "aspectRatio": 2.021018593371059
+        },
+        "patientCapacity": 0,
+        "personnel": ["gf", "rettSan", "rettSan", "san", "san", "notarzt"],
+        "materials": ["big", "big", "big", "big"]
+      },
+      {
+        "id": "ff5225c8-027e-4f7e-a2ed-84fe099f68de",
+        "type": "vehicleTemplate",
+        "vehicleType": "NEF",
+        "name": "NEF ???",
+        "image": {
+          "url": "/assets/nef-vehicle.png",
+          "height": 70,
+          "aspectRatio": 2.4120194910665944
+        },
+        "patientCapacity": 0,
+        "personnel": ["notarzt", "notSan"],
+        "materials": ["standard"]
+      },
+      {
+        "id": "33f9034b-602e-49c4-8274-e818c56c35c7",
+        "type": "vehicleTemplate",
+        "vehicleType": "Tragetrupp",
+        "name": "Tragetrupp ???",
+        "image": {
+          "url": "/assets/carrying-unit.svg",
+          "height": 210,
+          "aspectRatio": 1
+        },
+        "patientCapacity": 1,
+        "personnel": [],
+        "materials": []
+      },
+      {
+        "id": "147ac39c-c323-47be-a148-38f23053d1f4",
+        "type": "vehicleTemplate",
+        "vehicleType": "RTH",
+        "name": "RTH ???",
+        "image": {
+          "url": "/assets/rth-vehicle.svg",
+          "height": 300,
+          "aspectRatio": 2.3846153846153846
+        },
+        "patientCapacity": 1,
+        "personnel": ["notarzt", "notSan"],
+        "materials": ["standard"]
+      }
+    ],
+    "materialTemplates": {
+      "standard": {
+        "type": "materialTemplate",
+        "materialType": "standard",
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 0,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      },
+      "big": {
+        "type": "materialTemplate",
+        "materialType": "big",
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 10,
+        "image": {
+          "url": "/assets/big-material.svg",
+          "height": 35,
+          "aspectRatio": 1
+        }
+      }
+    },
+    "personnelTemplates": {
+      "san": {
+        "type": "personnelTemplate",
+        "personnelType": "san",
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 5,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/san-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        }
+      },
+      "rettSan": {
+        "type": "personnelTemplate",
+        "personnelType": "rettSan",
+        "canCaterFor": {
+          "red": 1,
+          "yellow": 2,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/rettSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        }
+      },
+      "notSan": {
+        "type": "personnelTemplate",
+        "personnelType": "notSan",
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 1,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 5.5,
+        "image": {
+          "url": "/assets/notSan-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        }
+      },
+      "notarzt": {
+        "type": "personnelTemplate",
+        "personnelType": "notarzt",
+        "canCaterFor": {
+          "red": 2,
+          "yellow": 2,
+          "green": 2,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 2.5,
+        "treatmentRange": 15,
+        "image": {
+          "url": "/assets/notarzt-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        }
+      },
+      "gf": {
+        "type": "personnelTemplate",
+        "personnelType": "gf",
+        "canCaterFor": {
+          "red": 0,
+          "yellow": 0,
+          "green": 0,
+          "logicalOperator": "and"
+        },
+        "overrideTreatmentRange": 0,
+        "treatmentRange": 0,
+        "image": {
+          "url": "/assets/gf-personnel.svg",
+          "height": 80,
+          "aspectRatio": 1
+        }
+      }
+    },
+    "mapImageTemplates": [
+      {
+        "id": "599292f6-16ad-4b6e-ab1e-43bfbfcad74b",
+        "type": "mapImageTemplate",
+        "name": "Feuer",
+        "image": {
+          "url": "/assets/fire.svg",
+          "height": 427,
+          "aspectRatio": 0.7330210772833724
+        }
+      },
+      {
+        "id": "85326aa1-b3b8-4c16-9e3f-63c7c1a167fe",
+        "type": "mapImageTemplate",
+        "name": "Brennendes Haus",
+        "image": {
+          "url": "/assets/house-fire.svg",
+          "height": 623,
+          "aspectRatio": 0.6308186195826645
+        }
+      }
+    ],
+    "eocLog": [],
+    "participantId": "567391",
+    "spatialTrees": {
+      "materials": {
+        "spatialTreeAsJSON": {
+          "children": [],
+          "height": 1,
+          "leaf": true,
+          "minX": null,
+          "minY": null,
+          "maxX": null,
+          "maxY": null
+        }
+      },
+      "patients": {
+        "spatialTreeAsJSON": {
+          "children": [],
+          "height": 1,
+          "leaf": true,
+          "minX": null,
+          "minY": null,
+          "maxX": null,
+          "maxY": null
+        }
+      },
+      "personnel": {
+        "spatialTreeAsJSON": {
+          "children": [],
+          "height": 1,
+          "leaf": true,
+          "minX": null,
+          "minY": null,
+          "maxX": null,
+          "maxY": null
+        }
+      }
+    },
+    "configuration": {
+      "type": "exerciseConfiguration",
+      "pretriageEnabled": true,
+      "bluePatientsEnabled": false,
+      "tileMapProperties": {
+        "tileUrl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+        "maxZoom": 20
+      }
+    }
+  }
+}
