@@ -77,8 +77,8 @@
         "simulatedRegionId": "cdfda1d1-f6a4-4a3b-b5b9-584c28a216b1",
         "status": { "type": "unreadRadiogramStatus", "publishTime": 5000 },
         "informationAvailable": true,
-        "transferredPatientsCounts": { "red": 3, "yellow": 2, "green": 1 },
-        "remainingPatientsCounts": { "red": 1, "yellow": 2, "green": 3 },
+        "transferredPatientsCounts": { "red": 3, "yellow": 2, "green": 1, "blue": 0, "black": 0, "white": 0 },
+        "remainingPatientsCounts": { "red": 1, "yellow": 2, "green": 3, "blue": 0, "black": 5, "white": 5 },
         "scope": "singleRegion"
       },
       "6214f2a7-ae04-4b10-a3a2-e962ccdbae2c": {
@@ -87,8 +87,8 @@
         "simulatedRegionId": "cdfda1d1-f6a4-4a3b-b5b9-584c28a216b1",
         "status": { "type": "unreadRadiogramStatus", "publishTime": 6000 },
         "informationAvailable": true,
-        "transferredPatientsCounts": { "red": 3, "yellow": 2, "green": 1 },
-        "remainingPatientsCounts": { "red": 1, "yellow": 2, "green": 3 },
+        "transferredPatientsCounts": { "red": 3, "yellow": 2, "green": 1, "blue": 1, "black": 1, "white": 0 },
+        "remainingPatientsCounts": { "red": 1, "yellow": 2, "green": 3, "blue": 0, "black": 0, "white": 0 },
         "scope": "transportManagement"
       }
     },
